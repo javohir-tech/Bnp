@@ -10,28 +10,60 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
-        children : [
+        children: [
             {
                 index: true,
-                element: <Home/>
+                element: <Home />
             },
             {
                 path: "/collection",
-                element: <Collection/>
+                element: <Collection />
             },
             {
                 path: "/about",
-                element: <About/>
+                element: <About />
             },
             {
                 path: "/contacts",
-                element: <Contacts/>
+                element: <Contacts />
             },
+            {
+                path: "/kvadratchalar",
+                element: <Kravatchalar text={"salom"} />
+            },
+            {
+                path: "/Ikat",
+                element: <Kravatchalar text={"alik"} />
+            },
+            {
+                path: "/davralar",
+                element: <Kravatchalar text={"davralar"} />
+            },
+            {
+                path:"/geometriya",
+                element: <Kravatchalar text={"geometriya"} />   
+               },
+               {
+                path:"/tropik",
+                element: <Kravatchalar text={"tropik"} />   
+               },
+               {
+                path:"/bambi",
+                element: <Kravatchalar text={"bambi"} />   
+               },
+               {
+                path:"/vizantiya",
+                element: <Kravatchalar text={"vizantiya"} />   
+               },
+               {
+                path:"/kechki",
+                element: <Kravatchalar text={"kechki"} />   
+               },
         ]
     },
     {
         path: "*",
-        element: <Kravatchalar/>
+        element: <Kravatchalar />
     }
 ])
 
