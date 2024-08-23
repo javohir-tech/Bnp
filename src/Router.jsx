@@ -29,7 +29,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/kvadratchalar",
-                element: <Kravatchalar text={"salom"} />
+                element: <Kravatchalar text={"Kvadratchalar"} />
             },
             {
                 path: "/Ikat",

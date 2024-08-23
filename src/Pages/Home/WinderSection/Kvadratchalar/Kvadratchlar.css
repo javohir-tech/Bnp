@@ -1,0 +1,31 @@
+td{
+    padding: 15px !important;
+}
+
+.addition-section__img img{
+    border-radius: 20px;
+}
+
+.addition-section__info {
+    width: 80%;
+    margin: 0 auto;
+    h2{
+        font-size: 25px;
+        line-height: 23px;
+        letter-spacing: -0.75px;
+        color: #000;
+        font-weight: 700;
+    }
+    h1{
+        font-size: 1.675rem;
+        padding: 20px 0;
+        font-weight: 500;
+        color: #444444;
+    }
+    p{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+        color: rgba(0,0,0,0.60);
+    }
+}
