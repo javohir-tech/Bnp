@@ -1,0 +1,82 @@
+.reklam-card__img {
+    img {
+        transform: scale(2.7);
+    }
+}
+
+.reklam-card__container {
+    margin: 30px 0;
+    background-color: rgb(96,103,130);
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.garandiya {
+    h1 {
+        font-size: 100px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    h3 {
+        font-size: 24px;
+        color: #fff;
+        font-weight: 600;
+    }
+}
+
+.reklam-card__info {
+    h2 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    button {
+        background-color: #fff;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+@media(max-width:576px){
+    .reklam-card__container{
+        margin: 10px 0;
+    }
+    .reklam-card__img{
+        img{
+            transform: scale(1.4);
+            position: relative;
+            top: -35px;
+        }
+    }
+}
+
+@media(max-width:992px){
+    .reklam-card__img{
+        img{
+            transform: scale(1.3);
+            position: relative;
+            top: -30px;
+        }
+    }
+    .garandiya{
+        text-align: center !important;
+        margin-top: 10px;
+    }
+
+    .reklam-card__info{
+        text-align: center;
+    }
+
+}
