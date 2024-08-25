@@ -35,6 +35,11 @@ import yoz6 from './assets/Tovars/yozgi6.jpg'
 import yoz7 from './assets/Tovars/yozgi7.jpg'
 import yoz8 from './assets/Tovars/yozgi8.jpg'
 
+import NewscardMashrut from "./Pages/NewsCradMashrut/NewscardMashrut";
+import newsCardImg1 from './assets/newsCard1.png'
+import newsCardImg2 from './assets/newsCard12png.png'    
+import newsCardImg3 from './assets/newsCard3.png'
+
 
 const router = createBrowserRouter([
     {
@@ -156,6 +161,18 @@ const router = createBrowserRouter([
                 path:"/zaytun",
                 element: <Kravatchalar text={"Zaytun novdasi"} mashrutImg={yoz8} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
             },
+            {
+                path:"/news1",
+                element: <NewscardMashrut NewsContentImg={newsCardImg1} data={"10/05/2019"}/>
+            },
+            {
+                path:"/news2",
+                element: <NewscardMashrut NewsContentImg={newsCardImg2} data={"10/05/2019"}/>
+            },
+            {
+                path:"/news3",
+                element: <NewscardMashrut NewsContentImg={newsCardImg3} data={"10/05/2019"}/>
+            }
         ]
     },
     {

@@ -8,6 +8,7 @@ import divanImg2 from '../../assets/111-1.png'
 import divanImg3 from '../../assets/111-2.png'
 import AutumnSection from './AutumnSection/AutumnSection'
 import SummerSection from './SummerSection/SummerSection'
+import NewsSection from './NewsSection/NewsSection'
 
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
             {/* summer section */}
             <SummerSection />
             {/* news section  */}
-            
+            <NewsSection/>
         </>
 
     )

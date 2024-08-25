@@ -1,0 +1,25 @@
+.news-content{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.news-content__img img{
+    height: 500px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.news-content__text{
+    width: 85%;
+    margin: 10px auto;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+
+.news-section__form{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+}

@@ -1,13 +1,7 @@
 import React, { useEffect } from 'react'
 import './Kvadratchlar.css'
-import birinchi from '../../../../assets/Tovars/1chi.jpg'
 import ikkinchi from '../../../../assets/Tovars/qishki2.jpg'
 import uchinchi from '../../../../assets/Tovars/qishki3.jpg'
-import tortinchi from '../../../../assets/Tovars/qishki4.jpg'
-import beshinchi from '../../../../assets/Tovars/qishki5.jpg'
-import oltinchi from '../../../../assets/Tovars/qishki6.jpg'
-import yettinchi from '../../../../assets/Tovars/qishki7.jpg'
-import sakkizinchi from '../../../../assets/Tovars/qishki8.jpg'
 import DivanMashrut from '../../../../Components/DivanMashrut'
 import { useLocation } from 'react-router'
 
