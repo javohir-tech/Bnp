@@ -1,8 +1,13 @@
 import React from 'react'
 import MainSection from './MainSection/MainSection'
 import HeroSection from './HeroSection/HeroSection'
-import ReklamCard from '../../Componets/ReklamCard/ReklamCard'
+import ReklamCard from '../../Components/ReklamCard/ReklamCard'
 import WinderSection from './WinderSection/WinderSection'
+import divanImg from '../../assets/111.png'
+import divanImg2 from '../../assets/111-1.png'
+import divanImg3 from '../../assets/111-2.png'
+import AutumnSection from './AutumnSection/AutumnSection'
+import SummerSection from './SummerSection/SummerSection'
 
 
 export default function Home() {
@@ -11,11 +16,21 @@ export default function Home() {
             {/* main section */}
             <MainSection />
             {/* hero section */}
-            <HeroSection/>
+            <HeroSection />
             {/* reklam card 1 */}
-            <ReklamCard/>
+            <ReklamCard reklamImg={divanImg} orqaFon={"birinchi"} />
             {/* winder section */}
-            <WinderSection/>
+            <WinderSection />
+            {/* reklam card 2 */}
+            <ReklamCard reklamImg={divanImg2} orqaFon={"ikkinchi"} />
+            {/* autumn section */}
+            <AutumnSection />
+            {/* reklam card 3 */}
+            <ReklamCard orqaFon={"uchinchi"} reklamImg={divanImg3} />
+            {/* summer section */}
+            <SummerSection />
+            {/* news section  */}
+            
         </>
 
     )

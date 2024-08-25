@@ -20,7 +20,7 @@ export default function WinderSection() {
                         <p>Buxoro tabiiy mahsuloti</p>
                         <div className="row">
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/kvadratchalar" reklamImg={dastlapki} tovarName="Kvadratchalart" />
+                                <DivanMashrut additionSection="/kvadratchalar" reklamImg={dastlapki} tovarName="Kvadratchalar" />
                             </div>
                             <div className="col-xl-3 col-md-4 ">
                                 <DivanMashrut additionSection="/Ikat" reklamImg={ikkinchi} tovarName="Ikat" />
