@@ -1,12 +1,10 @@
 import React from 'react'
 import './SearchSection.css'
-import DivanMashrut from '../../../Components/DivanMashrut'
 
 import { Button, Form, InputGroup } from 'react-bootstrap'
 import { Search } from 'react-bootstrap-icons'
 import { Outlet } from 'react-router'
 import { NavLink } from 'react-router-dom'
-import WinderSection from '../../Home/WinderSection/WinderSection'
 
 export default function SearchSection() {
     return (

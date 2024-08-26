@@ -35,6 +35,16 @@ import yoz6 from './assets/Tovars/yozgi6.jpg'
 import yoz7 from './assets/Tovars/yozgi7.jpg'
 import yoz8 from './assets/Tovars/yozgi8.jpg'
 
+// spring images
+import spring1 from './assets/Tovars/spring1.jpg'
+import spring2 from './assets/Tovars/spring2.jpg'
+import spring3 from './assets/Tovars/spring3.jpg'
+import spring4 from './assets/Tovars/spring4.jpg'
+import spring5 from './assets/Tovars/spring5.jpg'
+import spring6 from './assets/Tovars/spring6.jpg'
+import spring7 from './assets/Tovars/spring7.jpg'
+import spring8 from './assets/Tovars/spring8.jpg'
+
 import NewscardMashrut from "./Pages/NewsCradMashrut/NewscardMashrut";
 import newsCardImg1 from './assets/newsCard1.png'
 import newsCardImg2 from './assets/newsCard12png.png'
@@ -122,6 +132,39 @@ const router = createBrowserRouter([
             {
                 path: "/kechki",
                 element: <Kravatchalar text={"kechki"} mashrutImg={sakkizinchi} kategoriya={"qishki kolleksiya"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"geometriya"} mashrut2Img={yettinchi} mashrut2Text={"vizantiya"} />
+            },
+            // bahorgi kolleksiya
+            {
+                path:"/Versal",
+                element:<Kravatchalar text={"Versel (AB)"} mashrutImg={spring1} kategoriya={"bahorgi kolleksiya"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"geometriya"} mashrut2Img={yettinchi} mashrut2Text={"vizantiya"} />
+            },
+            {
+                path:"/Sakura",
+                element: <Kravatchalar text={"Sakura filiali"} mashrutImg={spring2} kategoriya={"bahorgi kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+            },
+            {
+                path:"/toqqa",
+                element: <Kravatchalar text={"Toqqa chiqish"} mashrutImg={spring3} kategoriya={"bahorgi kolleksiya"} mashrut1={"/kechki"} mashrut2={"/safari"} mashrut1Img={sakkizinchi} mashrut1Text={"kechki"} mashrut2Img={kuzgi1} mashrut2Text={"safari"} />
+            },
+            {
+                path:"/uygunlik",
+                element: <Kravatchalar text={"Uyg'unlik"} mashrutImg={spring4} kategoriya={"bahorgi kolleksiya"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"geometriya"} mashrut2Img={yettinchi} mashrut2Text={"vizantiya"} />
+            },
+            {
+                path:"/dastarxon",
+                element:<Kravatchalar text={"Dastarxon"} mashrutImg={spring5} kategoriya={"bahorgi kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+            },
+            {
+                path:"/yovvoyi",
+                element: <Kravatchalar text={"Yovvoyi orkide"} mashrutImg={spring6} kategoriya={"bahorgi kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+            },
+            {
+                path:"makka",
+                element: <Kravatchalar text={"Tog'li makkajo'xori"} mashrutImg={spring8} kategoriya={"bahorgi kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+            },
+            {
+                path:"/bollarDunyosi",
+                element:<Kravatchalar text={"Bolalar Dunnyosi"} mashrutImg={spring7} kategoriya={"bahorgi kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
             },
             /* kuzgi kolleksiya */
             {

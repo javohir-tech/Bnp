@@ -17,7 +17,7 @@ export default function Kravatchalar({ text,mashrutImg, kategoriya, mashrut1, ma
         <div className="container">
           <div className="row gx-3 pb-3">
             <div className="col-md-6 addition-section__img">
-              <img src={mashrutImg} alt="img is not found" className='img-fluid' />
+              <img src={mashrutImg} alt="img is not found" className='img-fluid w-100' />
             </div>
             <div className="col-md-5 offset-md-1">
               <h1 className='mt-md-0 mt-5'>{text}</h1>
