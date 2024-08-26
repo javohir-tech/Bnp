@@ -1,0 +1,27 @@
+.footer-link{
+    list-style: none;
+    padding: 10px 5px;
+    li{
+        a{
+            color: rgb(103,103,103);
+            transition: all 0.3s ease;
+        }
+        a:hover{
+            color: red;
+        }
+        color: rgb(103,103,103);
+    }
+}
+
+.footer-text{
+    color: rgba(0, 0, 0, .6);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-under__info{
+    background-color: black;
+    p{
+        color: #fff;
+    }
+}

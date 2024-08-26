@@ -37,8 +37,14 @@ import yoz8 from './assets/Tovars/yozgi8.jpg'
 
 import NewscardMashrut from "./Pages/NewsCradMashrut/NewscardMashrut";
 import newsCardImg1 from './assets/newsCard1.png'
-import newsCardImg2 from './assets/newsCard12png.png'    
+import newsCardImg2 from './assets/newsCard12png.png'
 import newsCardImg3 from './assets/newsCard3.png'
+import WinderSection from "./Pages/Home/WinderSection/WinderSection";
+import NotFound from "./NotFound";
+import SpringSection from "./Pages/Home/SpringSection/SpringSection";
+import AutumnSection from "./Pages/Home/AutumnSection/AutumnSection";
+import SummerSection from "./Pages/Home/SummerSection/SummerSection";
+import First from "./Pages/Collection/First/First";
 
 
 const router = createBrowserRouter([
@@ -52,7 +58,29 @@ const router = createBrowserRouter([
             },
             {
                 path: "/collection",
-                element: <Collection />
+                element: <Collection />,
+                children: [
+                    {
+                        index: true,
+                        element: <First/>
+                    },
+                    {
+                        path: "/collection/winder",
+                        element: <WinderSection />
+                    },
+                    {
+                        path: "/collection/spring",
+                        element: <SpringSection />
+                    },
+                    {
+                        path: "/collection/autumn",
+                        element: <AutumnSection />
+                    },
+                    {
+                        path: "/collection/summer",
+                        element: <SummerSection />
+                    },
+                ]
             },
             {
                 path: "/about",
@@ -60,7 +88,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/contacts",
-                element: <Contacts />
+                element: <Contacts />,
             },
             /* qishki kolleksiya */
             {
@@ -130,54 +158,54 @@ const router = createBrowserRouter([
             },
             /* yozgi kolleksiya */
             {
-                path:"/Vintage",
+                path: "/Vintage",
                 element: <Kravatchalar text={"Vintage Usuli"} mashrutImg={yoz1} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
             },
             {
-                path:"/hilpiragan",
+                path: "/hilpiragan",
                 element: <Kravatchalar text={"hilpiragan karahindiba"} mashrutImg={yoz2} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
             },
             {
-                path:"/fransuz",
+                path: "/fransuz",
                 element: <Kravatchalar text={"Fransuz Riviera"} mashrutImg={yoz3} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
             },
             {
-                path:"/qoy",
+                path: "/qoy",
                 element: <Kravatchalar text={"Qo'y Dolli"} mashrutImg={yoz4} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
             },
             {
-                path:"/alp",
+                path: "/alp",
                 element: <Kravatchalar text={"Alp tog'lari o'simliklari"} mashrutImg={yoz5} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
             },
             {
-                path:"/Ilhomlantiruvchi",
+                path: "/Ilhomlantiruvchi",
                 element: <Kravatchalar text={"Ilhomlantiruvchi"} mashrutImg={yoz7} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
             },
             {
-                path:"/yashil",
+                path: "/yashil",
                 element: <Kravatchalar text={"Yashil lotus"} mashrutImg={yoz6} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
             },
             {
-                path:"/zaytun",
+                path: "/zaytun",
                 element: <Kravatchalar text={"Zaytun novdasi"} mashrutImg={yoz8} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
             },
             {
-                path:"/news1",
-                element: <NewscardMashrut NewsContentImg={newsCardImg1} data={"10/05/2019"}/>
+                path: "/news1",
+                element: <NewscardMashrut NewsContentImg={newsCardImg1} data={"10/05/2019"} />
             },
             {
-                path:"/news2",
-                element: <NewscardMashrut NewsContentImg={newsCardImg2} data={"10/05/2019"}/>
+                path: "/news2",
+                element: <NewscardMashrut NewsContentImg={newsCardImg2} data={"10/05/2019"} />
             },
             {
-                path:"/news3",
-                element: <NewscardMashrut NewsContentImg={newsCardImg3} data={"10/05/2019"}/>
+                path: "/news3",
+                element: <NewscardMashrut NewsContentImg={newsCardImg3} data={"10/05/2019"} />
             }
         ]
     },
     {
         path: "*",
-        element: <Kravatchalar />
+        element: <NotFound />
     }
 ])
 

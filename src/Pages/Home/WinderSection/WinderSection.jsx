@@ -1,4 +1,5 @@
 import React from 'react'
+
 import dastlapki from '../../../assets/Tovars/1chi.jpg'
 import ikkinchi from '../../../assets/Tovars/qishki2.jpg'
 import uchuinchi from '../../../assets/Tovars/qishki3.jpg'
@@ -11,13 +12,14 @@ import DivanMashrut from '../../../Components/DivanMashrut'
 
 
 export default function WinderSection() {
+
     return (
         <>
             <section className='winder-section py-5'>
                 <div className="container">
                     <div className='text-center'>
-                        <h1>Qishgi Kolleksiya</h1>
-                        <p>Buxoro tabiiy mahsuloti</p>
+                        {/* <h1>Qishgi Kolleksiya</h1>
+                        <p>Buxoro tabiiy mahsuloti</p> */}
                         <div className="row">
                             <div className="col-xl-3 col-md-4 ">
                                 <DivanMashrut additionSection="/kvadratchalar" reklamImg={dastlapki} tovarName="Kvadratchalar" />
