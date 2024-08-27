@@ -44,7 +44,6 @@ import spring8 from '../../../assets/Tovars/spring8.jpg'
 
 export default function First() {
     const [activePage, setActivePage] = useState(1);
-    const [searchTerm, setSearchTerm] = useState('');
     const itemsPerPage = 8;
 
     const allItems = [
@@ -209,11 +208,8 @@ export default function First() {
         }
     ]
 
-    const filteredItems = allItems.filter(item =>
-        item.tovarName.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-
     const shuffledItems = allItems.sort(() => Math.random() - 0.5);
+
     const handlePaginationClick = (number) => {
         setActivePage(number);
     };
@@ -221,16 +217,11 @@ export default function First() {
     const totalPages = Math.ceil(allItems.length / itemsPerPage);
 
     const startIndex = (activePage - 1) * itemsPerPage;
-    const currentItems = filteredItems.slice(startIndex, startIndex + itemsPerPage);
-
-    const handleSearchChange = (e) => {
-        setSearchTerm(e.target.value);
-        setActivePage(1); // Reset to first page on search
-    };
+    const currentItems = shuffledItems.slice(startIndex, startIndex + itemsPerPage);
 
 
     let items = [];
-    for (let number = 1; number <= 4; number++) {
+    for (let number = 1; number <= totalPages; number++) {
         items.push(
             <Pagination.Item
                 key={number}
@@ -244,12 +235,6 @@ export default function First() {
 
     return (
         <>
-            <input
-                type="text"
-                placeholder="Search"
-                value={searchTerm}
-                onChange={handleSearchChange}
-            />
             <div className="row">
                 {currentItems.map((item, index) => (
                     <div key={index} className="col-md-4 col-xl-3 col-6">

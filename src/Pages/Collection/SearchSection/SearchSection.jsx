@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './SearchSection.css'
 
 import { Button, Form, InputGroup } from 'react-bootstrap'
@@ -45,9 +45,13 @@ import spring5 from '../../../assets/Tovars/spring5.jpg'
 import spring6 from '../../../assets/Tovars/spring6.jpg'
 import spring7 from '../../../assets/Tovars/spring7.jpg'
 import spring8 from '../../../assets/Tovars/spring8.jpg'
+import DivanMashrut from '../../../Components/DivanMashrut'
 
 
 export default function SearchSection() {
+
+    const [searchTerm, setSearchTerm] = useState('');
+
 
     const allItems = [
         {
@@ -211,6 +215,13 @@ export default function SearchSection() {
         }
     ]
 
+    const handleSearch = (e) => {
+        e.preventDefault();
+        setSearchTerm(e.target.value);
+    }
+
+    const currentItems = allItems.filter(item => item.tovarName.toLowerCase().includes(searchTerm.toLowerCase()));
+
     return (
         <>
             <section className='py-3'>
@@ -223,6 +234,8 @@ export default function SearchSection() {
                                         placeholder="Search"
                                         aria-label="Recipient's username"
                                         aria-describedby="basic-addon2"
+                                        value={searchTerm}
+                                        onChange={handleSearch}
                                     />
                                     <Button variant="danger" id="button-addon2">
                                         <Search size={20} color='white' />
@@ -230,17 +243,29 @@ export default function SearchSection() {
                                 </InputGroup>
                             </Form>
                             <ul className='search-link'>
-                                <li><NavLink to={"/collection/winder"}>Qishkgi Kolleksiya</NavLink></li>
-                                <li><NavLink to={"/collection/spring"}>Bahorgi Kolleksiya</NavLink></li>
-                                <li><NavLink to={"/collection/summer"}>Yozgi Kolleksiya</NavLink></li>
-                                <li><NavLink to={"/collection/autumn"}>Kuzgi Kolleksiya</NavLink></li>
+                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection"}>Barchasi</NavLink></li>
+                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/winder"}>Qishkgi Kolleksiya</NavLink></li>
+                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/spring"}>Bahorgi Kolleksiya</NavLink></li>
+                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/summer"}>Yozgi Kolleksiya</NavLink></li>
+                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/autumn"}>Kuzgi Kolleksiya</NavLink></li>
                             </ul>
                         </div>
                         <div className='col-md-10 col-12'>
                             <h2>To'plam</h2>
                             <div className="row">
-                                <Outlet />
-                                
+                                {searchTerm.length == 0
+                                    ?
+                                    <Outlet />
+                                    :
+                                    (
+                                        currentItems.map((item, index) => (
+                                            <div key={index} className='col-md-4 col-xl-3 col-6'>
+                                                <DivanMashrut additionSection={item.additionSection} reklamImg={item.reklamImg} tovarName={item.tovarName} />
+                                            </div>
+                                        ))
+                                    )
+                                }
+
                             </div>
                         </div>
                     </div>
