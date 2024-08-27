@@ -34,7 +34,7 @@ export default function NewscardMashrut({ NewsContentImg, data }) {
                             Go‘zal vodiy atrofimni bug‘ bilan to‘ldirganda va meridian quyoshi daraxtlarimning o‘tib bo‘lmas barglarining ustki yuzasiga urilib, ichkaridagi ma’badga bir nechta adashgan yaltirab kirsa, men o‘zimni baland o‘tlar orasiga tashlab ketaman. oqayotgan oqim; Yerga yaqin yotganimda, minglab noma’lum o‘simliklar ko‘z oldimga keladi: poyalar orasidan kichkina dunyoning shovqin-suronini eshitib, hasharotlar va pashshalarning ta’riflab bo‘lmaydigan ko‘rinishlari bilan tanishganimda, men bizni o'z qiyofasida shakllantirgan Qodir Tangrining borligi va bizni ko'tarib turuvchi va qo'llab-quvvatlovchi o'sha umumbashariy muhabbat nafasi, u atrofimizda abadiy saodatda suzib yuradi; Shunda, do‘stim, ko‘zlarimni zulmat qoplaganda, osmonu yer qalbimda o‘rnashib, uning kuchini xuddi suyukli bekasi qiyofasiga singdirayotganday bo‘lsa, men ko‘pincha sog‘inch bilan o‘ylayman: “Oh, bu tushunchalarni tasvirlab berardimmi? Qog'ozga ichimda yashovchi hamma narsani to'liq va iliq taassurot qoldirishi mumkin edi.
                         </p>
                         <div className='news-section__form'>
-                            <FormSection title={"Izoh qoldiring "} />
+                            <FormSection title={"Izoh qoldiring "} col={"col-md-6"} subtitle={"Sizning elektron pochta manzilingiz nashr etilmaydi. Majburiy maydonlar belgilangan *"}/>
                         </div>
                     </div>
                 </div>
