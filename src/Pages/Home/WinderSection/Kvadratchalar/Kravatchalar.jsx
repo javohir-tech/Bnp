@@ -4,6 +4,7 @@ import ikkinchi from '../../../../assets/Tovars/qishki2.jpg'
 import uchinchi from '../../../../assets/Tovars/qishki3.jpg'
 import DivanMashrut from '../../../../Components/DivanMashrut'
 import { useLocation } from 'react-router'
+import { useTranslation } from 'react-i18next'
 
 export default function Kravatchalar({ text,mashrutImg, kategoriya, mashrut1, mashrut2, mashrut2Img, mashrut1Img, mashrut1Text, mashrut2Text }) {
   const { pathname } = useLocation();
@@ -11,6 +12,8 @@ export default function Kravatchalar({ text,mashrutImg, kategoriya, mashrut1, ma
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [pathname])
+
+  const {t} =useTranslation();
   return (
     <>
       <section className='py-5'>
@@ -49,25 +52,17 @@ export default function Kravatchalar({ text,mashrutImg, kategoriya, mashrut1, ma
                   </tr>
                 </tbody>
               </table>
-              <p>Kategotiya: <p className='text-danger d-inline'>{kategoriya}</p></p>
+              <p>{t("Kravatchalar.categoriy")}<p className='text-danger d-inline'>{kategoriya}</p></p>
             </div>
           </div>
           
           <div className='py-5 addition-section__info'>
-            <h2>tasnif</h2>
-            <h1>Choyshablar to'plami Kvadratchalar</h1>
-            <p>
-              Choyshab - bu qulaylik va go'zallik uchun mo'ljallangan
-              uy-ro'zg'or buyumlari va yotoqxona dekoratsiyasi. Choyshab,
-              adyol, yostiq hunarmandchiligi va boshqa aksessuarlarni o'z ichiga
-              olgan turli xil to'shak to'plamlarini tanlashingiz mumkin. Ularda turli
-              dizaynlar, bosma naqshlar, kashtalar yoki boshqa dizayn elementlari mavjud.
-              Ular oson va tez tozalanadi va tozalanadi. Ular yumshoq materiallardan tayyorlangan
-              bo'lib, ular yotoqxonangizni qulay va qulay qiladi.
-            </p>
+            <h2>{t("Kravatchalar.comment")}</h2>
+            <h1>{t("Kravatchalar.title")}</h1>
+            <p>{t("Kravatchalar.text")}</p>
           </div>
           <div className='my-3 text-center'>
-              <h1>Shunga o'xshash mahsulotlar</h1>
+              <h1>{t("Kravatchalar.banner")}</h1>
           </div>
           <div className='my-5 row'>
             <div className="col-xl-3 col-md-4 ">

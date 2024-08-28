@@ -4,8 +4,10 @@ import emplema from '../../../assets/emplema.svg'
 import naushnik from '../../../assets/naushnik.svg'
 import wallet from '../../../assets/wallet.svg'
 import './HeroSection.css'
+import { useTranslation } from 'react-i18next'
 
 export default function HeroSection() {
+    const { t } = useTranslation()
     return (
         <>
             <section className='hero-section'>
@@ -16,8 +18,8 @@ export default function HeroSection() {
                                 <img src={car} width={55} className='img-fluid' alt="" />
                             </div>
                             <div className='hero-section__text'>
-                                <h6>Yetkazib berish bepul</h6>
-                                <p>Barcha buyurtmalar uchun bepul yetkazib berish</p>
+                                <h6>{t("hero-section.title-1")}</h6>
+                                <p>{t("hero-section.subtitle-1")}</p>
                             </div>
                         </div>
                         <div className='d-flex align-items-center col-md-6 col-xl-3'>
@@ -25,8 +27,8 @@ export default function HeroSection() {
                                 <img src={emplema} width={50} className='img-fluid' alt="" />
                             </div>
                             <div className='hero-section__text'>
-                                <h6>Qaytish kafolati</h6>
-                                <p>30 kunlik pulni qaytarish</p>
+                                <h6>{t("hero-section.title-2")}</h6>
+                                <p>{t("hero-section.subtitle-2")}</p>
                             </div>
                         </div>
                         <div className='d-flex align-items-center col-md-6 col-xl-3'>
@@ -34,8 +36,8 @@ export default function HeroSection() {
                                 <img src={naushnik} width={50} className='img-fluid me-2' alt="" />
                             </div>
                             <div className='hero-section__text'>
-                                <h6>24/7 onlayn qo'llab-quvvatlash</h6>
-                                <p>24/7 texnik yordam</p>
+                                <h6>{t("hero-section.title-3")}</h6>
+                                <p>{t("hero-section.subtitle-3")}</p>
                             </div>
                         </div>
                         <div className='d-flex align-items-center col-md-6 col-xl-3'>
@@ -43,8 +45,8 @@ export default function HeroSection() {
                                 <img src={wallet} width={50} className='img-fluid' alt="" />
                             </div>
                             <div className='hero-section__text'>
-                                <h6>Xavfsiz to'lov</h6>
-                                <p>Barcha to'lov usullari qabul qilinadi</p>
+                                <h6>{t("hero-section.title-4")}</h6>
+                                <p>{t("hero-section.subtitle-4")}</p>
                             </div>
                         </div>
                     </div>

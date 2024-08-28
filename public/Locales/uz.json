@@ -1,0 +1,70 @@
+{
+    "navbar":{
+        "home":"Asosiy",
+        "collection":"To'plam",
+        "about":"Biz Haqimizda",
+        "contacts":"Kontaktlar"
+    },
+    "main-section":{
+        "item-1":"Buxoro",
+        "item-2":"Tabiiy",
+        "item-3":"Mahsulot"
+    },
+    "hero-section":{
+        "title-1":"Yetkazib berish bepul",
+        "subtitle-1":"Barcha buyurtmalar uchun bepul yetkazib berish",
+        "title-2":"Qaytish kafolati",
+        "subtitle-2":"30 kunlik pulni qaytarish",
+        "title-3":"24/7 onlayn qo'llab-quvvatlash",
+        "subtitle-3":"24/7 texnik yordam",
+        "title-4":"Xavfsiz to'lov",
+        "subtitle-4":"Barcha to'lov usullari qabul qilinadi"
+    },
+    "ReklamCard":{
+        "tovar":"Material sifati",
+        "title":"Buxoro tabiiy mahsuloti",
+        "subtitle":"ko'p yillar davomida butun dunyoda foydalanish uchun paxta matolarini ishlab chiqaradigan kompaniya bo'lib kelgan",
+        "button":"To'plam"
+    },
+    "Kravatchalar":{
+        "categoriy":"Kategoriya:",
+        "comment":"tasnif",
+        "title":"Choyshablar to'plami Kvadratchalar",
+        "text":"Choyshab - bu qulaylik va go'zallik uchun mo'ljallangan uy-ro'zg'or buyumlari va yotoqxona dekoratsiyasi. Choyshab, adyol, yostiq hunarmandchiligi va boshqa aksessuarlarni o'z ichiga olgan turli xil to'shak to'plamlarini tanlashingiz mumkin. Ularda turli dizaynlar, bosma naqshlar, kashtalar yoki boshqa dizayn elementlari mavjud. Ular oson va tez tozalanadi va tozalanadi. Ular yumshoq materiallardan tayyorlangan bo'lib, ular yotoqxonangizni qulay va qulay qiladi.",
+        "banner":"Shunga o'xshash mahsulotlar"
+    },
+    "WinderSection":{
+        "Winder1":"Kvadratchalar",
+        "Winder2":"Ikat",
+        "Winder3":"Davralar",
+        "Winder4":"Geometriya ko'k",
+        "Winder5":"Tropik barglar",
+        "Winder6":"Bambi",
+        "Winder7":"Vizatntiya",
+        "Winder8":"Kechki Bog'"
+    },
+    "SpringSection":{
+
+    },
+    "SummerSection":{
+        "Summer1":"Vintage uslubi",  
+        "Summer2":"hilpiragan karahindiba",
+        "Summer3":"Fransuz Riviera",
+        "Summer4":"Qo'y Dolli",
+        "Summer5":"Alp tog'lari o'simliklari",
+        "Summer6":"Ilhomlantiruvchi",
+        "Summer7":"Yashil lotus",
+        "Summer8":"Zaytun novdasi"
+    },
+    "AutumnSection":{
+        "Autumn1":"Safari",
+        "Autumn2":"Ko'p rangli ametist",
+        "Autumn3":"Shivali bezak",
+        "Autumn4":"Malaxit qutisi",
+        "Autumn5":"Bahorning hidlari",
+        "Autumn6":"Kuzgi barglar tushishi (AB)",
+        "Autumn7":"Moviy suv (AB)",
+        "Autumn8":"Plaid"
+    }
+    
+}

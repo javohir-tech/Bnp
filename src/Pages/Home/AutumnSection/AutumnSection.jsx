@@ -11,8 +11,10 @@ import kuzgi5 from '../../../assets/Tovars/kuzgi5.jpg'
 import kuzgi6 from '../../../assets/Tovars/kuzgi6.jpg'
 import kuzgi7 from '../../../assets/Tovars/kuzgi7.jpg'
 import kuzgi8 from '../../../assets/Tovars/kuzgi8.jpg'
+import { useTranslation } from 'react-i18next'
 
 export default function AutumnSection() {
+    const {t}=useTranslation()
     return (
         <>
             <section className='winder-section py-5'>
@@ -22,28 +24,28 @@ export default function AutumnSection() {
                         <p>Buxoro tabiiy mahsuloti</p>
                         <div className="row">
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/safari" reklamImg={kuzgi1} tovarName="Safari" />
+                                <DivanMashrut additionSection="/safari" reklamImg={kuzgi1} tovarName={t("AutumnSection.Autumn1")} />
                             </div>
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/colors" reklamImg={kuzgi2} tovarName="Ko'p rangli ametist" />
+                                <DivanMashrut additionSection="/colors" reklamImg={kuzgi2} tovarName={t("AutumnSection.Autumn2")} />
                             </div>
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/shivali" reklamImg={kuzgi3} tovarName="Shivali bezak" />
+                                <DivanMashrut additionSection="/shivali" reklamImg={kuzgi3} tovarName={t("AutumnSection.Autumn3")} />
                             </div>
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/malaxit" reklamImg={kuzgi4} tovarName="Malaxit qutisi" />
+                                <DivanMashrut additionSection="/malaxit" reklamImg={kuzgi4} tovarName={t("AutumnSection.Autumn4")} />
                             </div>
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/bahor" reklamImg={kuzgi5} tovarName="Bahorning hidlari" />
+                                <DivanMashrut additionSection="/bahor" reklamImg={kuzgi5} tovarName={t("AutumnSection.Autumn5")} />
                             </div>
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/kuzgi" reklamImg={kuzgi6} tovarName="Kuzgi barglar tushishi (AB)" />
+                                <DivanMashrut additionSection="/kuzgi" reklamImg={kuzgi6} tovarName={t("AutumnSection.Autumn6")} />
                             </div>
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/moviy" reklamImg={kuzgi7} tovarName="Moviy suv (AB)" />
+                                <DivanMashrut additionSection="/moviy" reklamImg={kuzgi7} tovarName={t("AutumnSection.Autumn7")} />
                             </div>
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/plaid" reklamImg={kuzgi8} tovarName="Plaid" />
+                                <DivanMashrut additionSection="/plaid" reklamImg={kuzgi8} tovarName={t("AutumnSection.Autumn8")} />
                             </div>
                         </div>
                     </div>
