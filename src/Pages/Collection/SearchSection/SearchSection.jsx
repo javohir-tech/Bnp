@@ -46,172 +46,175 @@ import spring6 from '../../../assets/Tovars/spring6.jpg'
 import spring7 from '../../../assets/Tovars/spring7.jpg'
 import spring8 from '../../../assets/Tovars/spring8.jpg'
 import DivanMashrut from '../../../Components/DivanMashrut'
+import { useTranslation } from 'react-i18next'
 
 
 export default function SearchSection() {
 
     const [searchTerm, setSearchTerm] = useState('');
 
+    const {t} =useTranslation()
 
     const allItems = [
         {
             additionSection: "/kvadratchalar",
             reklamImg: dastlapki,
-            tovarName: "Kvadratchalar",
+            tovarName:t("WinderSection.Winder1"),
         },
         {
             additionSection: "/Ikat",
             reklamImg: ikkinchi,
-            tovarName: "Ikat",
+            tovarName: t("WinderSection.Winder2"),
         },
         {
             additionSection: "/davralar",
             reklamImg: uchuinchi,
-            tovarName: "Davralar",
+            tovarName: t("WinderSection.Winder3"),
         },
         {
             additionSection: "/geometriya",
             reklamImg: tortinchi,
-            tovarName: "Geometriya ko'k",
+            tovarName: t("WinderSection.Winder4"),
         },
         {
             additionSection: "/tropik",
             reklamImg: beshinchi,
-            tovarName: "Tropik barglar",
+            tovarName: t("WinderSection.Winder5"),
         },
         {
             additionSection: "/bambi",
             reklamImg: oltinchi,
-            tovarName: "Bambi",
+            tovarName: t("WinderSection.Winder6"),
         },
         {
             additionSection: "/vizantiya",
             reklamImg: yetinchi,
-            tovarName: "Vizatntiya",
+            tovarName: t("WinderSection.Winder7"),
         },
         {
             additionSection: "/kechki",
             reklamImg: sakinzinchi,
-            tovarName: "Kechki Bog'",
+            tovarName: t("WinderSection.Winder8"),
         },
         {
             additionSection: "/Vintage",
             reklamImg: yoz1,
-            tovarName: "Vintage uslubi"
+            tovarName: t("SummerSection.Summer1")
         },
         {
             additionSection: "/hilpiragan",
             reklamImg: yoz2,
-            tovarName: "Hilpiragan karahindiba"
+            tovarName: t("SummerSection.Summer2")
         },
         {
             additionSection: "/fransuz",
             reklamImg: yoz3,
-            tovarName: "Fransuz Riviera"
+            tovarName: t("SummerSection.Summer3")
         },
         {
             additionSection: "/qoy",
             reklamImg: yoz4,
-            tovarName: "Qo'y Dolli"
+            tovarName: t("SummerSection.Summer4")
         },
         {
             additionSection: "/alp",
             reklamImg: yoz5,
-            tovarName: "Alp tog'lari o'simliklari"
+            tovarName: t("SummerSection.Summer5")
         },
         {
             additionSection: "/Ilhomlantiruvchi",
-            reklamImg: yoz7, tovarName: "Ilhomlantiruvchi"
+            reklamImg: yoz7,
+             tovarName: t("SummerSection.Summer6")
         },
         {
             additionSection: "/yashil",
             reklamImg: yoz6,
-            tovarName: "Yashil lotus"
+            tovarName: t("SummerSection.Summer7")
         },
         {
             additionSection: "/zaytun",
             reklamImg: yoz8,
-            tovarName: "Zaytun novdasi"
+            tovarName: t("SummerSection.Summer8")
         },
         {
             additionSection: "/safari",
             reklamImg: kuzgi1,
-            tovarName: "Safari"
+            tovarName: t("AutumnSection.Autumn1")
         },
         {
             additionSection: "/colors",
             reklamImg: kuzgi2,
-            tovarName: "Ko'p rangli ametist"
+            tovarName: t("AutumnSection.Autumn2")
         },
         {
             additionSection: "/shivali",
             reklamImg: kuzgi3,
-            tovarName: "Shivali bezak"
+            tovarName: t("AutumnSection.Autumn3")
         },
         {
             additionSection: "/malaxit",
             reklamImg: kuzgi4,
-            tovarName: "Malaxit qutisi"
+            tovarName: t("AutumnSection.Autumn4")
         },
         {
             additionSection: "/bahor",
             reklamImg: kuzgi5,
-            tovarName: "Bahorning hidlari"
+            tovarName: t("AutumnSection.Autumn5")
         },
         {
             additionSection: "/kuzgi",
             reklamImg: kuzgi6,
-            tovarName: "Kuzgi barglar tushishi (AB)"
+            tovarName: t("AutumnSection.Autumn6")
         },
         {
             additionSection: "/moviy",
             reklamImg: kuzgi7,
-            tovarName: "Moviy suv (AB)"
+            tovarName: t("AutumnSection.Autumn7")
         },
         {
             additionSection: "/plaid",
             reklamImg: kuzgi8,
-            tovarName: "Plaid"
+            tovarName: t("AutumnSection.Autumn8")
         },
         {
             additionSection: "/Versal",
             reklamImg: spring1,
-            tovarName: "Versal (AB)"
+            tovarName: t("SpringSection.Spring1")
         },
         {
             additionSection: "/Sakura",
             reklamImg: spring2,
-            tovarName: "Sakura filiali"
+            tovarName: t("SpringSection.Spring2")
         },
         {
             additionSection: "/Toqqa",
             reklamImg: spring3,
-            tovarName: "Toqqa chiqish"
+            tovarName: t("SpringSection.Spring3")
         },
         {
             additionSection: "/uygunlik",
             reklamImg: spring4,
-            tovarName: "Uyg'unlik"
+            tovarName: t("SpringSection.Spring4")
         },
         {
             additionSection: "/dastarxon",
             reklamImg: spring5,
-            tovarName: "Dastarxon"
+            tovarName: t("SpringSection.Spring5")
         },
         {
             additionSection: "/yovvoyi",
             reklamImg: spring6,
-            tovarName: "Yovvoyi orkide"
+            tovarName: t("SpringSection.Spring6")
         },
         {
             additionSection: "/bollarDunyosi",
             reklamImg: spring7,
-            tovarName: "Bolalar Dunyosi"
+            tovarName: t("SpringSection.Spring7")
         },
         {
             additionSection: "/makka",
             reklamImg: spring8,
-            tovarName: "Tog'li makkajo'xori"
+            tovarName: t("SpringSection.Spring8")
         }
     ]
 
@@ -222,6 +225,7 @@ export default function SearchSection() {
 
     const currentItems = allItems.filter(item => item.tovarName.toLowerCase().includes(searchTerm.toLowerCase()));
 
+    
     return (
         <>
             <section className='py-3'>
@@ -231,7 +235,7 @@ export default function SearchSection() {
                             <Form>
                                 <InputGroup className="mb-3">
                                     <Form.Control
-                                        placeholder="Search"
+                                        placeholder={t("CollectionSection.search")}
                                         aria-label="Recipient's username"
                                         aria-describedby="basic-addon2"
                                         value={searchTerm}
@@ -243,15 +247,15 @@ export default function SearchSection() {
                                 </InputGroup>
                             </Form>
                             <ul className='search-link'>
-                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection"}>Barchasi</NavLink></li>
-                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/winder"}>Qishkgi Kolleksiya</NavLink></li>
-                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/spring"}>Bahorgi Kolleksiya</NavLink></li>
-                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/summer"}>Yozgi Kolleksiya</NavLink></li>
-                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/autumn"}>Kuzgi Kolleksiya</NavLink></li>
+                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection"}>{t("CollectionSection.All")}</NavLink></li>
+                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/winder"}>{t("WinderSection.title")}</NavLink></li>
+                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/spring"}>{t("SpringSection.title")}</NavLink></li>
+                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/summer"}>{t("SummerSection.title")}</NavLink></li>
+                                <li><NavLink onClick={() => setSearchTerm("")} to={"/collection/autumn"}>{t("AutumnSection.title")}</NavLink></li>
                             </ul>
                         </div>
                         <div className='col-md-10 col-12'>
-                            <h2>To'plam</h2>
+                            <h2>{t("CollectionSection.title")}</h2>
                             <div className="row">
                                 {searchTerm.length == 0
                                     ?

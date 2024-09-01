@@ -9,6 +9,7 @@ import spring5 from '../../../assets/Tovars/spring5.jpg'
 import spring6 from '../../../assets/Tovars/spring6.jpg'
 import spring7 from '../../../assets/Tovars/spring7.jpg'
 import spring8 from '../../../assets/Tovars/spring8.jpg'
+import { t } from 'i18next'
 
 
 export default function SpringSection() {
@@ -17,8 +18,8 @@ export default function SpringSection() {
             <section className='winder-section py-5'>
                 <div className="container">
                     <div className='text-center'>
-                        <h1>Kuz Kolleksiya</h1>
-                        <p>Buxoro tabiiy mahsuloti</p>
+                        <h1>{t("SpringSection.title")}</h1>
+                        <p>{t("NewsSection.text")}</p>
                         <div className="row">
                             <div className="col-xl-3 col-md-4 ">
                                 <DivanMashrut additionSection="/Versal" reklamImg={spring1} tovarName="Versal (AB)" />
@@ -39,10 +40,10 @@ export default function SpringSection() {
                                 <DivanMashrut additionSection="/yovvoyi" reklamImg={spring6} tovarName="Yovvoyi orkide" />
                             </div>
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/makka" reklamImg={spring7} tovarName="Tog'li makkajo'xori" />
+                                <DivanMashrut additionSection="/makka" reklamImg={spring7} tovarName="Bollar Dunyosi" />
                             </div>
                             <div className="col-xl-3 col-md-4 ">
-                                <DivanMashrut additionSection="/bollarDunnyosi" reklamImg={spring8} tovarName="Bolalar Dunnyosi" />
+                                <DivanMashrut additionSection="/bollarDunyosi" reklamImg={spring8} tovarName="Tog'li makkajo'xori" />
                             </div>
                         </div>
                     </div>

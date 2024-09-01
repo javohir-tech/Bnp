@@ -56,7 +56,6 @@ import AutumnSection from "./Pages/Home/AutumnSection/AutumnSection";
 import SummerSection from "./Pages/Home/SummerSection/SummerSection";
 import First from "./Pages/Collection/First/First";
 
-
 const router = createBrowserRouter([
     {
         path: "/",
@@ -103,134 +102,134 @@ const router = createBrowserRouter([
             /* qishki kolleksiya */
             {
                 path: "/kvadratchalar",
-                element: <Kravatchalar text={"Kvadratchalar"} mashrutImg={birinchi} kategoriya={"qishki kolleksiya"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"geometriya"} mashrut2Img={yettinchi} mashrut2Text={"vizantiya"} />
+                element: <Kravatchalar text={"WinderSection.Winder1"} mashrutImg={birinchi} kategoriya={"Kravatchalar.season1"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"WinderSection.Winder4"} mashrut2Img={yettinchi} mashrut2Text={"WinderSection.Winder7"} />
             },
             {
                 path: "/Ikat",
-                element: <Kravatchalar text={"Ikat"} mashrutImg={ikkinchi} kategoriya={"qishki kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+                element: <Kravatchalar text={"WinderSection.Winder2"} mashrutImg={ikkinchi} kategoriya={"Kravatchalar.season1"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"WinderSection.Winder5"} mashrut2Img={oltinchi} mashrut2Text={"WinderSection.Winder6"} />
             },
             {
                 path: "/davralar",
-                element: <Kravatchalar text={"Davralar"} mashrutImg={uchinchi} kategoriya={"qishki kolleksiya"} mashrut1={"/geometriya"} mashrut2={"/kechki"} mashrut1Img={tortinchi} mashrut1Text={"geometriya"} mashrut2Img={sakkizinchi} mashrut2Text={"Kechki bog'"} />
+                element: <Kravatchalar text={"WinderSection.Winder3"} mashrutImg={uchinchi} kategoriya={"Kravatchalar.season1"} mashrut1={"/geometriya"} mashrut2={"/kechki"} mashrut1Img={tortinchi} mashrut1Text={"WinderSection.Winder4"} mashrut2Img={sakkizinchi} mashrut2Text={"WinderSection.Winder8"} />
             },
             {
                 path: "/geometriya",
-                element: <Kravatchalar text={"Geometrik Ko'k"} mashrutImg={tortinchi} kategoriya={"qishki kolleksiya"} mashrut1={"/vizantiya"} mashrut2={"/bambi"} mashrut1Img={yettinchi} mashrut1Text={"Vizantiya"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+                element: <Kravatchalar text={"WinderSection.Winder4"} mashrutImg={tortinchi} kategoriya={"Kravatchalar.season1"} mashrut1={"/vizantiya"} mashrut2={"/bambi"} mashrut1Img={yettinchi} mashrut1Text={"WinderSection.Winder7"} mashrut2Img={oltinchi} mashrut2Text={"WinderSection.Winder6"} />
             },
             {
                 path: "/tropik",
-                element: <Kravatchalar text={"Tropik"} mashrutImg={beshinchi} kategoriya={"qishki kolleksiya"} mashrut1={"/geometriya"} mashrut2={"/kechki"} mashrut1Img={tortinchi} mashrut1Text={"geometriya"} mashrut2Img={sakkizinchi} mashrut2Text={"Kechki bog'"} />
+                element: <Kravatchalar text={"WinderSection.Winder5"} mashrutImg={beshinchi} kategoriya={"Kravatchalar.season1"} mashrut1={"/geometriya"} mashrut2={"/kechki"} mashrut1Img={tortinchi} mashrut1Text={"WinderSection.Winder4"} mashrut2Img={sakkizinchi} mashrut2Text={"WinderSection.Winder8"} />
             },
             {
                 path: "/bambi",
-                element: <Kravatchalar text={"bambi"} mashrutImg={oltinchi} kategoriya={"qishki kolleksiya"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"geometriya"} mashrut2Img={yettinchi} mashrut2Text={"vizantiya"} />
+                element: <Kravatchalar text={"WinderSection.Winder6"} mashrutImg={oltinchi} kategoriya={"Kravatchalar.season1"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"WinderSection.Winder4"} mashrut2Img={yettinchi} mashrut2Text={"WinderSection.Winder7"} />
             },
             {
                 path: "/vizantiya",
-                element: <Kravatchalar text={"vizantiya"} mashrutImg={yettinchi} kategoriya={"qishki kolleksiya"} mashrut1={"/vizantiya"} mashrut2={"/bambi"} mashrut1Img={yettinchi} mashrut1Text={"Vizantiya"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+                element: <Kravatchalar text={"WinderSection.Winder7"} mashrutImg={yettinchi} kategoriya={"Kravatchalar.season1"} mashrut1={"/vizantiya"} mashrut2={"/bambi"} mashrut1Img={yettinchi} mashrut1Text={"WinderSection.Winder7"} mashrut2Img={oltinchi} mashrut2Text={"WinderSection.Winder6"} />
             },
             {
                 path: "/kechki",
-                element: <Kravatchalar text={"kechki"} mashrutImg={sakkizinchi} kategoriya={"qishki kolleksiya"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"geometriya"} mashrut2Img={yettinchi} mashrut2Text={"vizantiya"} />
+                element: <Kravatchalar text={"WinderSection.Winder8"} mashrutImg={sakkizinchi} kategoriya={"Kravatchalar.season1"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"WinderSection.Winder4"} mashrut2Img={yettinchi} mashrut2Text={"WinderSection.Winder7"} />
             },
             // bahorgi kolleksiya
             {
                 path:"/Versal",
-                element:<Kravatchalar text={"Versel (AB)"} mashrutImg={spring1} kategoriya={"bahorgi kolleksiya"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"geometriya"} mashrut2Img={yettinchi} mashrut2Text={"vizantiya"} />
+                element:<Kravatchalar text={"SpringSection.Spring1"} mashrutImg={spring1} kategoriya={"Kravatchalar.season2"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"WinderSection.Winder4"} mashrut2Img={yettinchi} mashrut2Text={"WinderSection.Winder7"} />
             },
             {
                 path:"/Sakura",
-                element: <Kravatchalar text={"Sakura filiali"} mashrutImg={spring2} kategoriya={"bahorgi kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+                element: <Kravatchalar text={"SpringSection.Spring2"} mashrutImg={spring2} kategoriya={"Kravatchalar.season2"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"WinderSection.Winder5"} mashrut2Img={oltinchi} mashrut2Text={"WinderSection.Winder6"} />
             },
             {
                 path:"/toqqa",
-                element: <Kravatchalar text={"Toqqa chiqish"} mashrutImg={spring3} kategoriya={"bahorgi kolleksiya"} mashrut1={"/kechki"} mashrut2={"/safari"} mashrut1Img={sakkizinchi} mashrut1Text={"kechki"} mashrut2Img={kuzgi1} mashrut2Text={"safari"} />
+                element: <Kravatchalar text={"SpringSection.Spring3"} mashrutImg={spring3} kategoriya={"Kravatchalar.season2"} mashrut1={"/kechki"} mashrut2={"/safari"} mashrut1Img={sakkizinchi} mashrut1Text={"WinderSection.Winder8"} mashrut2Img={kuzgi1} mashrut2Text={"AutumnSection.Autumn1"} />
             },
             {
                 path:"/uygunlik",
-                element: <Kravatchalar text={"Uyg'unlik"} mashrutImg={spring4} kategoriya={"bahorgi kolleksiya"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"geometriya"} mashrut2Img={yettinchi} mashrut2Text={"vizantiya"} />
+                element: <Kravatchalar text={"SpringSection.Spring4"} mashrutImg={spring4} kategoriya={"Kravatchalar.season2"} mashrut1={"/geometriya"} mashrut2={"/vizantiya"} mashrut1Img={tortinchi} mashrut1Text={"WinderSection.Winder4"} mashrut2Img={yettinchi} mashrut2Text={"WinderSection.Winder7"} />
             },
             {
                 path:"/dastarxon",
-                element:<Kravatchalar text={"Dastarxon"} mashrutImg={spring5} kategoriya={"bahorgi kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+                element:<Kravatchalar text={"SpringSection.Spring5"} mashrutImg={spring5} kategoriya={"Kravatchalar.season2"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"WinderSection.Winder5"} mashrut2Img={oltinchi} mashrut2Text={"WinderSection.Winder6"} />
             },
             {
                 path:"/yovvoyi",
-                element: <Kravatchalar text={"Yovvoyi orkide"} mashrutImg={spring6} kategoriya={"bahorgi kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+                element: <Kravatchalar text={"SpringSection.Spring6"} mashrutImg={spring6} kategoriya={"Kravatchalar.season2"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"WinderSection.Winder5"} mashrut2Img={oltinchi} mashrut2Text={"WinderSection.Winder6"} />
             },
             {
-                path:"makka",
-                element: <Kravatchalar text={"Tog'li makkajo'xori"} mashrutImg={spring8} kategoriya={"bahorgi kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+                path:"/makka",
+                element: <Kravatchalar text={"SpringSection.Spring7"} mashrutImg={spring7} kategoriya={"Kravatchalar.season2"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"WinderSection.Winder5"} mashrut2Img={oltinchi} mashrut2Text={"WinderSection.Winder6"} />
             },
             {
                 path:"/bollarDunyosi",
-                element:<Kravatchalar text={"Bolalar Dunnyosi"} mashrutImg={spring7} kategoriya={"bahorgi kolleksiya"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"tropik"} mashrut2Img={oltinchi} mashrut2Text={"bambi"} />
+                element:<Kravatchalar text={"SpringSection.Spring8"} mashrutImg={spring8} kategoriya={"Kravatchalar.season2"} mashrut1={"/tropik"} mashrut2={"/bambi"} mashrut1Img={beshinchi} mashrut1Text={"WinderSection.Winder5"} mashrut2Img={oltinchi} mashrut2Text={"WinderSection.Winder6"} />
             },
             /* kuzgi kolleksiya */
             {
                 path: "/safari",
-                element: <Kravatchalar text={"Safari"} mashrutImg={kuzgi1} kategoriya={"Kuzgi kolleksiya"} mashrut1={"/shivali"} mashrut2={"/malaxit"} mashrut1Img={kuzgi3} mashrut1Text={"Shivali bezak"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"AutumnSection.Autumn1"} mashrutImg={kuzgi1} kategoriya={"Kravatchalar.season4"} mashrut1={"/shivali"} mashrut2={"/malaxit"} mashrut1Img={kuzgi3} mashrut1Text={"AutumnSection.Autumn3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/colors",
-                element: <Kravatchalar text={"Ko'p rangli ametist"} mashrutImg={kuzgi2} kategoriya={"Kuzgi kolleksiya"} mashrut1={"/bahor"} mashrut2={"/kuzgi"} mashrut1Img={kuzgi5} mashrut1Text={"Bahorning Hidlari"} mashrut2Img={kuzgi6} mashrut2Text={"Kuzgi barglar tushishi"} />
+                element: <Kravatchalar text={"AutumnSection.Autumn2"} mashrutImg={kuzgi2} kategoriya={"Kravatchalar.season4"} mashrut1={"/bahor"} mashrut2={"/kuzgi"} mashrut1Img={kuzgi5} mashrut1Text={"AutumnSection.Autumn5"} mashrut2Img={kuzgi6} mashrut2Text={"AutumnSection.Autumn6"} />
             },
             {
                 path: "/shivali",
-                element: <Kravatchalar text={"Shivali bezak"} mashrutImg={kuzgi3} kategoriya={"Kuzgi kolleksiya"} mashrut1={"/moviy"} mashrut2={"/plaid"} mashrut1Img={kuzgi7} mashrut1Text={"Moviy suv (AB)"} mashrut2Img={kuzgi8} mashrut2Text={"Plaid"} />
+                element: <Kravatchalar text={"AutumnSection.Autumn3"} mashrutImg={kuzgi3} kategoriya={"Kravatchalar.season4"} mashrut1={"/moviy"} mashrut2={"/plaid"} mashrut1Img={kuzgi7} mashrut1Text={"AutumnSection.Autumn7"} mashrut2Img={kuzgi8} mashrut2Text={"AutumnSection.Autumn8"} />
             },
             {
                 path: "/malaxit",
-                element: <Kravatchalar text={"Malaxit qutisi"} mashrutImg={kuzgi4} kategoriya={"Kuzgi kolleksiya"} mashrut1={"/safari"} mashrut2={"/malaxit"} mashrut1Img={kuzgi1} mashrut1Text={"Safari"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"AutumnSection.Autumn4"} mashrutImg={kuzgi4} kategoriya={"Kravatchalar.season4"} mashrut1={"/safari"} mashrut2={"/malaxit"} mashrut1Img={kuzgi1} mashrut1Text={"AutumnSection.Autumn1"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/bahor",
-                element: <Kravatchalar text={"Bahorning Hidlari"} mashrutImg={kuzgi5} kategoriya={"Kuzgi kolleksiya"} mashrut1={"/colors"} mashrut2={"/plaid"} mashrut1Img={kuzgi2} mashrut1Text={"Ko'p rangli ametist"} mashrut2Img={kuzgi8} mashrut2Text={"Plaid"} />
+                element: <Kravatchalar text={"AutumnSection.Autumn5"} mashrutImg={kuzgi5} kategoriya={"Kravatchalar.season4"} mashrut1={"/colors"} mashrut2={"/plaid"} mashrut1Img={kuzgi2} mashrut1Text={"AutumnSection.Autumn2"} mashrut2Img={kuzgi8} mashrut2Text={"AutumnSection.Autumn8"} />
             },
             {
                 path: "/kuzgi",
-                element: <Kravatchalar text={"Kuzgi barglar tushishi"} mashrutImg={kuzgi6} kategoriya={"Kuzgi kolleksiya"} mashrut1={"/shivali"} mashrut2={"/malaxit"} mashrut1Img={kuzgi3} mashrut1Text={"Shivali bezak"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"AutumnSection.Autumn6"} mashrutImg={kuzgi6} kategoriya={"Kravatchalar.season4"} mashrut1={"/shivali"} mashrut2={"/malaxit"} mashrut1Img={kuzgi3} mashrut1Text={"AutumnSection.Autumn3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/moviy",
-                element: <Kravatchalar text={"Moviy suv (AB)"} mashrutImg={kuzgi7} kategoriya={"Kuzgi kolleksiya"} mashrut1={"/shivali"} mashrut2={"/malaxit"} mashrut1Img={kuzgi3} mashrut1Text={"Shivali bezak"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"AutumnSection.Autumn7"} mashrutImg={kuzgi7} kategoriya={"Kravatchalar.season4"} mashrut1={"/shivali"} mashrut2={"/malaxit"} mashrut1Img={kuzgi3} mashrut1Text={"AutumnSection.Autumn3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/plaid",
-                element: <Kravatchalar text={"Plaid"} mashrutImg={kuzgi8} kategoriya={"Kuzgi kolleksiya"} mashrut1={"/safari"} mashrut2={"/malaxit"} mashrut1Img={kuzgi1} mashrut1Text={"Safari"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"AutumnSection.Autumn8"} mashrutImg={kuzgi8} kategoriya={"Kravatchalar.season4"} mashrut1={"/safari"} mashrut2={"/malaxit"} mashrut1Img={kuzgi1} mashrut1Text={"AutumnSection.Autumn1"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             /* yozgi kolleksiya */
             {
                 path: "/Vintage",
-                element: <Kravatchalar text={"Vintage Usuli"} mashrutImg={yoz1} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"SummerSection.Summer1"} mashrutImg={yoz1} kategoriya={"Kravatchalar.season3"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"SummerSection.Summer3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/hilpiragan",
-                element: <Kravatchalar text={"hilpiragan karahindiba"} mashrutImg={yoz2} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"SummerSection.Summer2"} mashrutImg={yoz2} kategoriya={"Kravatchalar.season3"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"SummerSection.Summer3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/fransuz",
-                element: <Kravatchalar text={"Fransuz Riviera"} mashrutImg={yoz3} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"SummerSection.Summer3"} mashrutImg={yoz3} kategoriya={"Kravatchalar.season3"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"SummerSection.Summer3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/qoy",
-                element: <Kravatchalar text={"Qo'y Dolli"} mashrutImg={yoz4} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"SummerSection.Summer4"} mashrutImg={yoz4} kategoriya={"Kravatchalar.season3"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"SummerSection.Summer3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/alp",
-                element: <Kravatchalar text={"Alp tog'lari o'simliklari"} mashrutImg={yoz5} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"SummerSection.Summer5"} mashrutImg={yoz5} kategoriya={"Kravatchalar.season3"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"SummerSection.Summer3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/Ilhomlantiruvchi",
-                element: <Kravatchalar text={"Ilhomlantiruvchi"} mashrutImg={yoz7} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"SummerSection.Summer6"} mashrutImg={yoz7} kategoriya={"Kravatchalar.season3"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"SummerSection.Summer3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/yashil",
-                element: <Kravatchalar text={"Yashil lotus"} mashrutImg={yoz6} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"SummerSection.Summer7"} mashrutImg={yoz6} kategoriya={"Kravatchalar.season3"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"SummerSection.Summer3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/zaytun",
-                element: <Kravatchalar text={"Zaytun novdasi"} mashrutImg={yoz8} kategoriya={"Yozgi kolleksiya"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"Fransuz Riviera"} mashrut2Img={kuzgi4} mashrut2Text={"Malaxit qutisi"} />
+                element: <Kravatchalar text={"SummerSection.Summer8"} mashrutImg={yoz8} kategoriya={"Kravatchalar.season3"} mashrut1={"/fransuz"} mashrut2={"/malaxit"} mashrut1Img={yoz3} mashrut1Text={"SummerSection.Summer3"} mashrut2Img={kuzgi4} mashrut2Text={"AutumnSection.Autumn4"} />
             },
             {
                 path: "/news1",

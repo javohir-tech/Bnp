@@ -9,15 +9,17 @@ import FormSection from '../../Components/Form/FormSection'
 import pochta from '../../assets/pochta.svg'
 import telefon from '../../assets/telefon.svg'
 import location from '../../assets/location.svg'
+import { useTranslation } from 'react-i18next'
 
 
 export default function Contacts() {
+  const {t} = useTranslation()
   return (
     <>
       <div className="container my-5">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <FormSection title={"Aloqa"} />
+            <FormSection title={t("ContactsSection.title")} />
           </div>
           <div className="col-md-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d91170.0413859884!2d69.2617216!3d41.3007872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae6005c5142bf3%3A0xe04bf246835d2d7f!2z0JzQtdC20LTRg9C90LDRgNC-0LTQvdGL0Lkg0JDRjdGA0L7Qv9C-0YDRgiDQuNC80LXQvdC4INCY0YHQu9Cw0LzQsCDQmtCw0YDQuNC80L7QstCw!5e1!3m2!1sru!2s!4v1724761752503!5m2!1sru!2s" width={"100%"} height={"450"} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -32,7 +34,7 @@ export default function Contacts() {
                   <img src={pochta} width={70} className='img-fluid' alt="" />
                 </div>
                 <div className='hero-section__text contact-links'>
-                  <h6 className='d-inline'>Emil:</h6>
+                  <h6 className='d-inline'>{t("ContactsSection.email")}:</h6>
                   <p className='d-inline'>  suvonovjavohir625@gmail.com</p>
                 </div>
               </div>
@@ -45,7 +47,7 @@ export default function Contacts() {
                   <img src={telefon} width={45} className='img-fluid' alt="" />
                 </div>
                 <div className='hero-section__text contact-links'>
-                  <h6 className='d-inline'>Tel:</h6>
+                  <h6 className='d-inline'>{t("ContactsSection.phone")}:</h6>
                   <p className='d-inline'> +998 90 007 29 04</p>
                 </div>
               </div>
@@ -58,7 +60,7 @@ export default function Contacts() {
                   <img src={location} width={40} className='img-fluid' alt="" />
                 </div>
                 <div className='hero-section__text contact-links'>
-                  <h6 className='d-inline'>Manzil:</h6>
+                  <h6 className='d-inline'>{t("ContactsSection.address") }:</h6>
                   <p className='d-inline'> Buxoro, st. Alpomish 80.</p>
                 </div>
               </div>

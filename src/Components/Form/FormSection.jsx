@@ -3,6 +3,7 @@ import './Form.css'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import  Modal  from 'react-bootstrap/Modal';
+import { useTranslation } from 'react-i18next';
 
 export default function FormSection({ title, col, subtitle }) {
 
@@ -58,6 +59,7 @@ export default function FormSection({ title, col, subtitle }) {
             })
     }
 
+    const { t } = useTranslation()
 
     return (
         <>
@@ -68,25 +70,25 @@ export default function FormSection({ title, col, subtitle }) {
                     <Form onSubmit={handleSubmit}>
                         <div className='row g-3'>
                             <div className={col}>
-                                <Form.Control type="email" onChange={(e) => setEmail(e?.target?.value)} value={email} placeholder="Emailingiz" required />
+                                <Form.Control type="email" onChange={(e) => setEmail(e?.target?.value)} value={email} placeholder={t("Form.email")} required />
                             </div>
                             <div className={col}>
-                                <Form.Control type="text" onChange={(e) => setName(e?.target?.value)} value={name} placeholder="Ismingiz*" required/>
+                                <Form.Control type="text" onChange={(e) => setName(e?.target?.value)} value={name} placeholder={t("Form.name")} required/>
                             </div>
                             <div className='col'>
-                                <Form.Control as="textarea" onChange={(e) => setMessage(e?.target?.value)} value={message} rows={5} placeholder='Izoh qoldiring' required/>
+                                <Form.Control as="textarea" onChange={(e) => setMessage(e?.target?.value)} value={message} rows={5} placeholder={t("Form.message")} required/>
                             </div>
                         </div>
                         <div className='text-end'>
-                            <Button type='submit' variant="danger" className='my-3 px-5 rounded-pill'>Yuborish</Button>
+                            <Button type='submit' variant="danger" className='my-3 px-5 rounded-pill'>{t("Form.button")}</Button>
                         </div>
                     </Form>
 
                     <Modal show={show} onHide={handleClose}>
                         <Modal.Header closeButton>
-                            <Modal.Title>Modal heading</Modal.Title>
+                            <Modal.Title>{t("modal.title")}</Modal.Title>
                         </Modal.Header>
-                        <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+                        <Modal.Body>{t("modal.text")}</Modal.Body>
                         <Modal.Footer>
                             <Button variant="secondary" onClick={handleClose}>
                                 Close

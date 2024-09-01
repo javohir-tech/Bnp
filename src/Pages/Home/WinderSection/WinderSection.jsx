@@ -21,8 +21,8 @@ export default function WinderSection() {
             <section className='winder-section py-5'>
                 <div className="container">
                     <div className='text-center'>
-                        {/* <h1>Qishgi Kolleksiya</h1>
-                        <p>Buxoro tabiiy mahsuloti</p> */}
+                        <h1>{t("WinderSection.title")}</h1>
+                        <p>{t("NewsSection.text")}</p>
                         <div className="row">
                             <div className="col-xl-3 col-md-4 ">
                                 <DivanMashrut additionSection="/kvadratchalar" reklamImg={dastlapki} tovarName={t("WinderSection.Winder1")} />

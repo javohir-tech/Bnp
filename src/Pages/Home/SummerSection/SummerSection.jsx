@@ -21,8 +21,8 @@ export default function SummerSection() {
             <section className='winder-section py-5'>
                 <div className="container">
                     <div className='text-center'>
-                        <h1>Yozgi Kolleksiya</h1>
-                        <p>Buxoro tabiiy mahsuloti</p>
+                        <h1>{t("SummerSection.title")}</h1>
+                        <p>{t("NewsSection.text")}</p>
                         <div className="row">
                             <div className="col-xl-3 col-md-4 ">
                                 <DivanMashrut additionSection="/Vintage" reklamImg={yoz1} tovarName={t("SummerSection.Summer1")} />

@@ -23,7 +23,7 @@ export default function Kravatchalar({ text,mashrutImg, kategoriya, mashrut1, ma
               <img src={mashrutImg} alt="img is not found" className='img-fluid w-100' />
             </div>
             <div className="col-md-5 offset-md-1">
-              <h1 className='mt-md-0 mt-5'>{text}</h1>
+              <h1 className='mt-md-0 mt-5'>{t(text)}</h1>
               <table className='table table-bordered table-striped'>
                 <tbody>
                   <tr>
@@ -52,7 +52,7 @@ export default function Kravatchalar({ text,mashrutImg, kategoriya, mashrut1, ma
                   </tr>
                 </tbody>
               </table>
-              <p>{t("Kravatchalar.categoriy")}<p className='text-danger d-inline'>{kategoriya}</p></p>
+              <p>{t("Kravatchalar.categoriy")}<p className='text-danger d-inline'>{t(kategoriya)} </p></p>
             </div>
           </div>
           
@@ -66,13 +66,13 @@ export default function Kravatchalar({ text,mashrutImg, kategoriya, mashrut1, ma
           </div>
           <div className='my-5 row'>
             <div className="col-xl-3 col-md-4 ">
-              <DivanMashrut additionSection={mashrut1} reklamImg={mashrut1Img} tovarName={mashrut1Text} />
+              <DivanMashrut additionSection={mashrut1} reklamImg={mashrut1Img} tovarName={t(mashrut1Text)} />
             </div>
             <div className="col-xl-3 col-md-4 ">
               <DivanMashrut additionSection="/Ikat" reklamImg={ikkinchi} tovarName="Ikat" />
             </div>
             <div className="col-xl-3 col-md-4 ">
-              <DivanMashrut additionSection={mashrut2} reklamImg={mashrut2Img} tovarName={mashrut2Text} />
+              <DivanMashrut additionSection={mashrut2} reklamImg={mashrut2Img} tovarName={t(mashrut2Text)} />
             </div>
             <div className="col-xl-3 col-md-4 ">
               <DivanMashrut additionSection="/davralar" reklamImg={uchinchi} tovarName="Davralar" />

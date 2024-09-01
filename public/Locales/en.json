@@ -4,5 +4,49 @@
         "collection":"Collection",
         "about":"About",
         "contacts":"Contacts"
-    }
+    },
+        "WinderSection": {
+          "title": "Winter",
+          "Winder1": "Square",
+          "Winder2": "Ikat",
+          "Winder3": "Circles",
+          "Winder4": "Geometry",
+          "Winder5": "Tropical",
+          "Winder6": "Bambi",
+          "Winder7": "Byzantine",
+          "Winder8": "Evening"
+        },
+        "SpringSection": {
+          "title": "Spring Collection",
+          "Spring1": "Versailles (AB)",
+          "Spring2": "Sakura Branch",
+          "Spring3": "Climbing the Mountain",
+          "Spring4": "Harmony",
+          "Spring5": "Tablecloth",
+          "Spring6": "Wild Orchid",
+          "Spring7": "Children's World",
+          "Spring8": "Mountain Corn"
+        },
+        "SummerSection": {
+          "title": "Summer Collection",
+          "Summer1": "Vintage Style",
+          "Summer2": "Waving Dandelion",
+          "Summer3": "French Riviera",
+          "Summer4": "Sheep Dolly",
+          "Summer5": "Alpine Plants",
+          "Summer6": "Inspirational",
+          "Summer7": "Green Lotus",
+          "Summer8": "Olive Branch"
+        },
+        "AutumnSection": {
+          "title": "Autumn Collection",
+          "Autumn1": "Safari",
+          "Autumn2": "Multicolored Amethyst",
+          "Autumn3": "Shivali Pattern",
+          "Autumn4": "Malachite Box",
+          "Autumn5": "Scents of Spring",
+          "Autumn6": "Falling Autumn Leaves (AB)",
+          "Autumn7": "Blue Water (AB)",
+          "Autumn8": "Plaid"
+        }     
 }

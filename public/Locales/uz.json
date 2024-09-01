@@ -31,9 +31,14 @@
         "comment":"tasnif",
         "title":"Choyshablar to'plami Kvadratchalar",
         "text":"Choyshab - bu qulaylik va go'zallik uchun mo'ljallangan uy-ro'zg'or buyumlari va yotoqxona dekoratsiyasi. Choyshab, adyol, yostiq hunarmandchiligi va boshqa aksessuarlarni o'z ichiga olgan turli xil to'shak to'plamlarini tanlashingiz mumkin. Ularda turli dizaynlar, bosma naqshlar, kashtalar yoki boshqa dizayn elementlari mavjud. Ular oson va tez tozalanadi va tozalanadi. Ular yumshoq materiallardan tayyorlangan bo'lib, ular yotoqxonangizni qulay va qulay qiladi.",
-        "banner":"Shunga o'xshash mahsulotlar"
+        "banner":"Shunga o'xshash mahsulotlar",
+        "season1":"Qishki kolleksiya",
+        "season2":"Bahorgi kolleksiya",
+        "season3":"Yozgi kolleksiya",
+        "season4":"Kuzgi kolleksiya"
     },
     "WinderSection":{
+        "title":"Qishgi Kolleksiya",
         "Winder1":"Kvadratchalar",
         "Winder2":"Ikat",
         "Winder3":"Davralar",
@@ -44,9 +49,18 @@
         "Winder8":"Kechki Bog'"
     },
     "SpringSection":{
-
+        "title":"Bahorgi Kolleksiya",
+        "Spring1":"Versal (AB)",
+        "Spring2":"Sakura filiali",
+        "Spring3":"Toqqa chiqish",
+        "Spring4":"Uyg'unlik",
+        "Spring5":"Dastarxon",
+        "Spring6":"Yovvoyi orkide",
+        "Spring7":"Bollar Dunyosi",
+        "Spring8":"Tog'li makkajo'xori"
     },
     "SummerSection":{
+        "title":"Yozgi Kolleksiya",
         "Summer1":"Vintage uslubi",  
         "Summer2":"hilpiragan karahindiba",
         "Summer3":"Fransuz Riviera",
@@ -57,6 +71,7 @@
         "Summer8":"Zaytun novdasi"
     },
     "AutumnSection":{
+        "title":"Kuzgi Kolleksiya",
         "Autumn1":"Safari",
         "Autumn2":"Ko'p rangli ametist",
         "Autumn3":"Shivali bezak",
@@ -65,6 +80,65 @@
         "Autumn6":"Kuzgi barglar tushishi (AB)",
         "Autumn7":"Moviy suv (AB)",
         "Autumn8":"Plaid"
+    },
+    "NewsSection":{
+        "title":"Yangiliklar",
+        "text":"Buxoro Tabiiy Mahsuloti",
+        "by":"Admin Tomonidan",
+        "CardTitle":"Qanday qilib mukammal gadjetlarni tanlash mumkin",
+        "CardSubtitle":"Go'zal vodiy atrofimni bug' bilan to'ldirganda va meridian quyoshi tepalikka urilganda ..."
+    },
+    "FooterSection":{
+        "text":"“Bukhara Natural Product” koʻp yillardan buyon butun dunyoda foydalanish uchun paxta matolari ishlab chiqaradigan kompaniya hisoblanadi.",
+        "menu":"Menu",
+        "contact":"Kontaktlar",
+        "email":"Elektron pochtamizga xabar jo'nating",
+        "gmail":"E-mail:",
+        "button":"Jo'natish",
+        "subtitle":"MChJ \"BUXORA NATURAL PRODUCT\". Barcha huquqlar himoyalangan."
+    },
+    "NewscardMashrut":{
+        "text1":"Go‘zal vodiy atrofimni bug‘ bilan to‘ldirganda va meridian quyoshi daraxtlarimning o‘tib bo‘lmas barglarining ustki yuzasiga urilib, ichkaridagi ma’badga bir nechta adashgan yaltirab kirsa, men o‘zimni baland o‘tlar orasiga tashlab ketaman. oqayotgan oqim; Yerga yaqin yotganimda, minglab noma’lum o‘simliklar ko‘z oldimga keladi: poyalar orasidan kichkina dunyoning shovqin-suronini eshitib, hasharotlar va pashshalarning ta’riflab bo‘lmaydigan ko‘rinishlari bilan tanishganimda, men bizni o'z qiyofasida shakllantirgan Qodir Tangrining borligi va bizni ko'tarib turuvchi va qo'llab-quvvatlovchi o'sha umumbashariy muhabbat nafasi, u atrofimizda abadiy saodatda suzib yuradi; Shunda, do‘stim, ko‘zlarimni zulmat qoplaganda, osmonu yer qalbimda o‘rnashib, uning kuchini xuddi suyukli bekasi qiyofasiga singdirayotganday bo‘lsa, men ko‘pincha sog‘inch bilan o‘ylayman: “Oh, bu tushunchalarni tasvirlab berardimmi? Mening qalbim cheksiz Xudoning ko'zgusi bo'lgani kabi, u mening qalbimning ko'zgusi bo'lishi uchun ichimda yashovchi hamma narsani qog'ozga ta'sir qilishi mumkin!",
+        "text2":"Ey do'stim - lekin bu mening kuchim uchun juda ko'p - men bu vahiylarning ulug'vorligi og'irligi ostida cho'kib ketaman! Men butun qalbim bilan zavqlanadigan bahorning shirin tonglariday ajoyib bir xotirjamlik butun qalbimni egallab oldi. Menga o‘xshagan qalblar saodati uchun yaratilgan bu maskanda yolg‘izman, borliq jozibasini his etaman.",
+        "text3":" Men juda baxtiyorman, aziz do'stim, osoyishta yashashning ajoyib tuyg'usiga shunchalik berilib ketdimki, men o'z iste'dodlarimni e'tiborsiz qoldiraman. Men hozirda bitta zarbani chizishga qodir emasman; va shunga qaramay, men hech qachon hozirgidek buyuk rassom bo'lmaganimni his qilaman.",
+        "text4":" Go‘zal vodiy atrofimni bug‘ bilan to‘ldirganda va meridian quyoshi daraxtlarimning o‘tib bo‘lmas barglarining ustki yuzasiga urilib, ichkaridagi ma’badga bir nechta adashgan yaltirab kirsa, men o‘zimni baland o‘tlar orasiga tashlab ketaman. oqayotgan oqim; Yerga yaqin yotganimda, minglab noma’lum o‘simliklar ko‘z oldimga keladi: poyalar orasidan kichkina dunyoning shovqin-suronini eshitib, hasharotlar va pashshalarning ta’riflab bo‘lmaydigan ko‘rinishlari bilan tanishganimda, men bizni o'z qiyofasida shakllantirgan Qodir Tangrining borligi va bizni ko'tarib turuvchi va qo'llab-quvvatlovchi o'sha umumbashariy muhabbat nafasi, u atrofimizda abadiy saodatda suzib yuradi; Shunda, do‘stim, ko‘zlarimni zulmat qoplaganda, osmonu yer qalbimda o‘rnashib, uning kuchini xuddi suyukli bekasi qiyofasiga singdirayotganday bo‘lsa, men ko‘pincha sog‘inch bilan o‘ylayman: “Oh, bu tushunchalarni tasvirlab berardimmi? Qog'ozga ichimda yashovchi hamma narsani to'liq va iliq taassurot qoldirishi mumkin edi.",
+        "form":{
+            "title":"Izoh qoldiring",
+            "subtitle":"Sizning elektron pochta manzilingiz nashr etilmaydi. Majburiy maydonlar belgilangan *"
+        }
+    },
+    "Form":{
+        "email":"Emailingiz",
+        "name":"Ismingiz",
+        "message":"Izoh qoldiring",
+        "button":"Yuborish"
+    },
+    "AboutSection":{
+        "text1":"Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalarFabrikamız uzoq yillar davomida butun dunyoda foydalanish uchun paxta matolarini ishlab chiqaradigan kompaniya bo'lib kelgan.",
+        "text2":"Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalarUshbu kompaniya 17 yildan beri mijozlarga xizmat ko'rsatadi.",
+        "text3":"Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalarUshbu kompaniyaning asosiy maqsadi yuqori sifatli va tejamkor mahsulotlar",
+        "text4":"Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalarUshbu kompaniyaning ishlab chiqarish jarayoni butunlay ekologik toza",
+        "text5":"Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalarKorxonada xaridorlarning talab va takliflari asosida har qanday turdagi paxta xomashyosi ishlab chiqarilishi mumkin.",
+        "text6":"Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalarKompaniya DongJia to‘quv mashinalarining O‘zbekistondagi rasmiy dileri hisoblanadi.",
+        "text7":"Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalarAyni paytda 80 dan ortiq oila o‘z oilasini moddiy jihatdan ta’minlab, korxona nufuzi va muvaffaqiyatiga hissa qo‘shmoqda.",
+        "text8":"Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalarBu talabni qondirish uchun 50 ta to‘quv dastgohi to‘xtovsiz yuqori tezlikda ishlamoqda.",
+        "text9":"Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalarOyiga 200-250 ming metr gazlama to‘qish quvvatiga egamiz.",
+        "text10":"Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalarMijozlarimizning yuqori talabidan kelib chiqib, korxonada yuqori sifatli yuqori sifatli eko-sumkalar ishlab chiqarish yo‘lga qo‘yildi.",
+        "text11":" Buxoro matolari, Eko sumkalar, Buxoro matolari, Eko sumkalar“Bukhara Natural Product” kompaniyasi oʻz sodiq mijozlariga istalgan vaqtda xizmat koʻrsatishdan mamnun."
+    },
+    "CollectionSection":{
+        "title":"To'plam",
+        "search":"Search",
+        "All":"Barchasi"
+    },
+    "ContactsSection":{
+        "title":"Aloqa",
+        "email":"Email",
+        "phone":"Tel",
+        "address":"Manzil"
+    },
+    "modal":{
+        "title":"Xabar Jo'natildi",
+        "text":"siz bilan tez orada aloqaga chiqamiz."
     }
-    
 }

@@ -20,7 +20,7 @@ function BasicExample() {
     }
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary position-fixed w-100">
+        <Navbar expand="lg" className="bg-body-tertiary ">
             <Container>
                 <NavLink to="/"><img className='img-fluid me-3' width={150} src={logo} alt="logo" /></NavLink>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
