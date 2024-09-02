@@ -12,10 +12,10 @@ export default function MainSection() {
             <div className='container'>
                 <section className='main-section py-3'>
                     <div className="row align-items-center  main-section__content position-relative">
-                        <div className="col-xl-6">
+                        <div className="col-md-6">
                             <img src={mainImg} alt="mainImg" className='img-fluid main-img' />
                         </div>
-                        <div className="col-xl-6 main-section-titles">
+                        <div className="col-md-6 main-section-titles">
                             <h3 className='text-md-end'>{t("main-section.item-1")}</h3>
                             <h2 className='text-md-end'>{t("main-section.item-2")}</h2>
                             <h1 className='text-md-end '>{t("main-section.item-3")}</h1>

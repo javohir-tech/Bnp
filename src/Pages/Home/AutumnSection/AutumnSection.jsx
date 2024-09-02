@@ -20,8 +20,8 @@ export default function AutumnSection() {
             <section className='winder-section py-5'>
                 <div className="container">
                     <div className='text-center'>
-                        <h1>{t("AutumnSection.title")}</h1>
-                        <p>{t("NewsSection.text")}</p>
+                        <h1 className='seasons-header'>{t("AutumnSection.title")}</h1>
+                        <p className='seasons-subtitle'>{t("NewsSection.text")}</p>
                         <div className="row">
                             <div className="col-xl-3 col-md-4 ">
                                 <DivanMashrut additionSection="/safari" reklamImg={kuzgi1} tovarName={t("AutumnSection.Autumn1")} />

@@ -13,8 +13,8 @@ export default function NewsSection() {
             <section className='news-section'>
                 <div className="container">
                     <div className='text-center'>
-                        <h1>{t("NewsSection.title")}</h1>
-                        <p>{t("NewsSection.subtitle")}</p>
+                        <h1 className='seasons-header'>{t("NewsSection.title")}</h1>
+                        <p className='seasons-subtitle'>{t("NewsSection.text")}</p>
                     </div>
                     <div className='row'>
                         <div className='col-md-4'>

@@ -1,72 +1,88 @@
-.main-section{
+.main-section {
     margin: 50px 0;
     /* background-color: rgb(70,67,66); */
-    
+
 }
 
-.main-section__content{
-    background-color: rgb(70,67,66);
+.main-section__content {
+    background-color: rgb(70, 67, 66);
     box-sizing: border-box;
     padding: 10px;
     border-radius: 50px;
 }
 
-.main-img{
+.main-img {
     width: 600px;
     transform: scale(1.5);
 }
 
-.main-section-titles{
+.main-section-titles {
     color: #fff;
-    h1{
-    font-size: 100px;
-    font-weight: 900;
-    letter-spacing: 0.5px;
+
+    h1 {
+        font-size: 100px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
     }
-    h2{
+
+    h2 {
         font-size: 80px;
         font-weight: 900;
         letter-spacing: 1px;
     }
-    h3{
+
+    h3 {
         font-size: 60px;
         font-weight: 900;
         letter-spacing: 1.5px;
     }
 }
 
-@media(max-width:576px){
-    .main-img{
+@media(max-width:576px) {
+    .main-img {
         transform: scale(1);
         width: 300px;
     }
-    .main-section-titles{
-        h1{
+
+    .main-section-titles {
+        h1 {
             font-size: 50px;
         }
-        h2{
+
+        h2 {
             font-size: 40px;
         }
-        h3{
+
+        h3 {
             font-size: 30px;
         }
     }
 }
 
-@media(max-width:992px){
-    .main-img{
+@media(max-width:992px) {
+    .main-img {
         transform: scale(1.2);
     }
-    .main-section-titles{
+
+    .main-section-titles {
         text-align: center;
-        h1{
+
+        h1 {
             font-size: 60px;
         }
-        h2{
+
+        h2 {
             font-size: 50px;
         }
-        h3{
+
+        h3 {
             font-size: 40px;
         }
     }
+}
+
+@media(max-width:1200px){
+    .main-img {
+        transform: scale(1);
     }
+}

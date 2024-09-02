@@ -1,52 +1,156 @@
 {
-    "navbar":{
-        "home":"Home",
-        "collection":"Collection",
-        "about":"About",
-        "contacts":"Contacts"
+    "navbar": {
+        "home": "Home",
+        "collection": "Collection",
+        "about": "About Us",
+        "contacts": "Contacts"
     },
-        "WinderSection": {
-          "title": "Winter",
-          "Winder1": "Square",
-          "Winder2": "Ikat",
-          "Winder3": "Circles",
-          "Winder4": "Geometry",
-          "Winder5": "Tropical",
-          "Winder6": "Bambi",
-          "Winder7": "Byzantine",
-          "Winder8": "Evening"
-        },
-        "SpringSection": {
-          "title": "Spring Collection",
-          "Spring1": "Versailles (AB)",
-          "Spring2": "Sakura Branch",
-          "Spring3": "Climbing the Mountain",
-          "Spring4": "Harmony",
-          "Spring5": "Tablecloth",
-          "Spring6": "Wild Orchid",
-          "Spring7": "Children's World",
-          "Spring8": "Mountain Corn"
-        },
-        "SummerSection": {
-          "title": "Summer Collection",
-          "Summer1": "Vintage Style",
-          "Summer2": "Waving Dandelion",
-          "Summer3": "French Riviera",
-          "Summer4": "Sheep Dolly",
-          "Summer5": "Alpine Plants",
-          "Summer6": "Inspirational",
-          "Summer7": "Green Lotus",
-          "Summer8": "Olive Branch"
-        },
-        "AutumnSection": {
-          "title": "Autumn Collection",
-          "Autumn1": "Safari",
-          "Autumn2": "Multicolored Amethyst",
-          "Autumn3": "Shivali Pattern",
-          "Autumn4": "Malachite Box",
-          "Autumn5": "Scents of Spring",
-          "Autumn6": "Falling Autumn Leaves (AB)",
-          "Autumn7": "Blue Water (AB)",
-          "Autumn8": "Plaid"
-        }     
+    "main-section": {
+        "item-1": "Bukhara",
+        "item-2": "Natural",
+        "item-3": "Product"
+    },
+    "hero-section": {
+        "title-1": "Free Delivery",
+        "subtitle-1": "Free shipping on all orders",
+        "title-2": "Return Guarantee",
+        "subtitle-2": "30-day money-back guarantee",
+        "title-3": "24/7 Online Support",
+        "subtitle-3": "24/7 technical support",
+        "title-4": "Secure Payment",
+        "subtitle-4": "All payment methods accepted"
+    },
+    "ReklamCard": {
+        "tovar": "Material Quality",
+        "title": "Bukhara Natural Product",
+        "subtitle": "A company that has been producing cotton fabrics for use worldwide for many years",
+        "button": "Collection"
+    },
+    "Kravatchalar": {
+        "categoriy": "Category:",
+        "comment": "Classification",
+        "title": "Square Bed Set",
+        "text": "A bed set is a home decor item designed for comfort and beauty, including various bed sets like sheets, blankets, and pillow shams. Available in different designs, patterns, embroideries, and other decorative elements. They are easy to clean and maintain. Made from soft materials, they make your bedroom cozy and comfortable.",
+        "banner": "Related Products",
+        "season1": "Winter Collection",
+        "season2": "Spring Collection",
+        "season3": "Summer Collection",
+        "season4": "Autumn Collection"
+    },
+    "WinderSection": {
+        "title": "Winter Collection",
+        "Winder1": "Squares",
+        "Winder2": "Ikat",
+        "Winder3": "Circles",
+        "Winder4": "Geometry Blue",
+        "Winder5": "Tropical Leaves",
+        "Winder6": "Bambi",
+        "Winder7": "Byzantium",
+        "Winder8": "Evening Garden"
+    },
+    "SpringSection": {
+        "title": "Spring Collection",
+        "Spring1": "Versailles (AB)",
+        "Spring2": "Cherry Branch",
+        "Spring3": "Climbing",
+        "Spring4": "Harmony",
+        "Spring5": "Tablecloth",
+        "Spring6": "Wild Orchid",
+        "Spring7": "World of Balls",
+        "Spring8": "Mountain Cornflower"
+    },
+    "SummerSection": {
+        "title": "Summer Collection",
+        "Summer1": "Vintage Style",
+        "Summer2": "Fluffy Dandelion",
+        "Summer3": "French Riviera",
+        "Summer4": "Sheep Dolly",
+        "Summer5": "Alpine Plants",
+        "Summer6": "Inspiring",
+        "Summer7": "Green Lotus",
+        "Summer8": "Olive Branch"
+    },
+    "AutumnSection": {
+        "title": "Autumn Collection",
+        "Autumn1": "Safari",
+        "Autumn2": "Multicolored Amethyst",
+        "Autumn3": "Shivaly Ornament",
+        "Autumn4": "Malachite Box",
+        "Autumn5": "Spring Scents",
+        "Autumn6": "Falling Autumn Leaves (AB)",
+        "Autumn7": "Blue Water (AB)",
+        "Autumn8": "Plaid"
+    },
+    "NewsSection": {
+        "title": "News",
+        "text": "Bukhara Natural Product",
+        "by": "By Admin",
+        "CardTitle": "How to Choose Perfect Gadgets",
+        "CardSubtitle": "When the beautiful valley fills with steam and the meridian sun hits the top of the impenetrable leaves of my trees..."
+    },
+    "FooterSection": {
+        "text": "“Bukhara Natural Product” is a company that has been producing cotton fabrics for use worldwide for many years.",
+        "menu": "Menu",
+        "contact": "Contacts",
+        "email": "Send a message to our email",
+        "gmail": "Email:",
+        "button": "Send",
+        "subtitle": "LLC 'BUKHARA NATURAL PRODUCT'. All rights reserved."
+    },
+    "NewscardMashrut": {
+        "text1": "When the beautiful valley fills with steam and the meridian sun hits the top of the impenetrable leaves of my trees, and some stray rays enter the temple inside, I throw myself into the tall grass near the flowing stream; as I lie close to the earth, thousands of unknown plants come into view. When I hear the tiny world's noise between the stems and see the indescribable appearance of insects and flies, I feel the presence of the Almighty God who formed us in His image and the universal breath of love that supports and sustains us, floating around us in eternal bliss. Then, friend, when my eyes are darkened, and heaven and earth settle in my soul, absorbing its power as a beloved mistress in my image, I often think with longing: “Oh, if I could describe these insights and impressions fully and vividly on paper, just as my heart is the mirror of God, who reflects everything within me!",
+        "text2": "Oh friend, but this is too much for my power – I am crushed under the weight of the grandeur of these revelations! A wonderful calm has taken over my entire heart, like the sweet mornings of spring I enjoy with all my soul. I am alone in this place, created for the happiness of hearts like mine, and feel the charm of existence.",
+        "text3": "I am so happy, dear friend, so absorbed in the exquisite feeling of tranquil existence that I neglect my talents. I cannot draw a single stroke now; yet I feel I have never been such a great artist as now.",
+        "text4": "When the beautiful valley fills with steam and the meridian sun hits the top of the impenetrable leaves of my trees, and some stray rays enter the temple inside, I throw myself into the tall grass near the flowing stream; as I lie close to the earth, thousands of unknown plants come into view. When I hear the tiny world's noise between the stems and see the indescribable appearance of insects and flies, I feel the presence of the Almighty God who formed us in His image and the universal breath of love that supports and sustains us, floating around us in eternal bliss. Then, friend, when my eyes are darkened, and heaven and earth settle in my soul, absorbing its power as a beloved mistress in my image, I often think with longing: “Oh, if I could describe these insights and impressions fully and vividly on paper.",
+        "form": {
+            "title": "Leave a Comment",
+            "subtitle": "Your email address will not be published. Required fields are marked *"
+        }
+    },
+    "Form": {
+        "email": "Your Email",
+        "name": "Your Name",
+        "message": "Leave a Comment",
+        "button": "Submit"
+    },
+    "AboutSection": {
+        "text1": "Bukhara Fabrics, Eco Bags. Our factory has been a company that has been producing cotton fabrics for use worldwide for many years.",
+        "text2": "Bukhara Fabrics, Eco Bags. This company has been serving customers for 17 years.",
+        "text3": "Bukhara Fabrics, Eco Bags. The main goal of this company is high-quality and economical products.",
+        "text4": "Bukhara Fabrics, Eco Bags. The production process of this company is entirely environmentally friendly.",
+        "text5": "Bukhara Fabrics, Eco Bags. The company can produce any type of cotton raw materials based on customer requests and requirements.",
+        "text6": "Bukhara Fabrics, Eco Bags. The company is the official dealer of DongJia weaving machines in Uzbekistan.",
+        "text7": "Bukhara Fabrics, Eco Bags. Currently, more than 80 families are materially supporting their households while contributing to the company's prestige and success.",
+        "text8": "Bukhara Fabrics, Eco Bags. 50 weaving machines are working tirelessly at high speed to meet this demand.",
+        "text9": "Bukhara Fabrics, Eco Bags. We have a capacity of weaving 200-250 thousand meters of fabric per month.",
+        "text10": "Bukhara Fabrics, Eco Bags. Due to the high demand from our customers, the company has established the production of high-quality eco-bags.",
+        "text11": "Bukhara Fabrics, Eco Bags. “Bukhara Natural Product” is pleased to serve its loyal customers anytime."
+    },
+    "CollectionSection": {
+        "title": "Collection",
+        "search": "Search",
+        "All": "All"
+    },
+    "ContactsSection": {
+        "title": "Contact",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Address"
+    },
+    "modal": {
+        "title": "Message Sent",
+        "text": "We will contact you soon."
+    },
+    "Table": {
+        "material": "Material",
+        "flanel": "cotton flannel",
+        "ysize": "Pillowcase",
+        "csize": "Sheet:",
+        "ksize": "Duvet cover:",
+        "hajm": "Size:",
+        "by": "Manufacturer:",
+        "size": "Custom size",
+        "dona": "pieces",
+        "sm": "cm"
+    }
 }

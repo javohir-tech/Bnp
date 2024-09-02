@@ -1,6 +1,7 @@
 import React from 'react'
 import './ReklamCard.css'
 import { useTranslation } from 'react-i18next'
+import { NavLink } from 'react-router-dom'
 export default function ReklamCard({reklamImg, orqaFon}) {
     const {t}= useTranslation()
     return (
@@ -18,7 +19,7 @@ export default function ReklamCard({reklamImg, orqaFon}) {
                         <div className="col-xl-3 reklam-card__info order-3">
                             <h2>{t("ReklamCard.title")}</h2>
                             <p>{t("ReklamCard.subtitle")}</p>
-                            <button>{t("ReklamCard.button")}</button>
+                            <NavLink to="/collection"><button className='reklam-card__button'>{t("ReklamCard.button")}</button ></NavLink>
                         </div>
                     </div>
                 </section>

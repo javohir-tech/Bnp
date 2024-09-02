@@ -1,4 +1,5 @@
 import React from 'react'
+import './WinderSection.css'
 
 import dastlapki from '../../../assets/Tovars/1chi.jpg'
 import ikkinchi from '../../../assets/Tovars/qishki2.jpg'
@@ -21,8 +22,8 @@ export default function WinderSection() {
             <section className='winder-section py-5'>
                 <div className="container">
                     <div className='text-center'>
-                        <h1>{t("WinderSection.title")}</h1>
-                        <p>{t("NewsSection.text")}</p>
+                        <h1 className='seasons-header'>{t("WinderSection.title")}</h1>
+                        <p  className='seasons-subtitle'>{t("NewsSection.text")}</p>
                         <div className="row">
                             <div className="col-xl-3 col-md-4 ">
                                 <DivanMashrut additionSection="/kvadratchalar" reklamImg={dastlapki} tovarName={t("WinderSection.Winder1")} />

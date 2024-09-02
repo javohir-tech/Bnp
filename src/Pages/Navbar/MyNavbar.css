@@ -7,3 +7,22 @@
         color: rgba(0, 0, 0, .4);
     }
 }
+
+.active{
+    color: #e91e63 !important;
+}
+
+.navbar-fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+@media(max-width: 991px){
+    .my-navbar-items{
+        a{
+            margin-bottom: 5px;
+        }
+    }
+}

@@ -12,15 +12,22 @@
 }
 
 .birinchi{
-    background-color: rgb(96,103,130);
+    background-image: linear-gradient(0deg, #31384d 9%, #616884 50%);
+    transition: all .3s ease;
 }
 
 .ikkinchi{
-    background-color: rgb(93,81,128);
+    background-image: linear-gradient(0deg, #2e2549 9%, #625686 50%);
+    transition: all .3s ease;
 }
 
 .uchinchi{
-    background-color: rgb(48,126,122);
+    background-image: linear-gradient(0deg, #224f4d 9%, #307e7a 50%);
+    transition: all .3s ease;
+}
+
+.birinchi:hover, .ikkinchi:hover, .uchinchi:hover{
+    box-shadow: 0px 10px 20px 5px rgba(255, 0, 0, 0.2);
 }
 
 .garandiya {
@@ -66,7 +73,7 @@
     }
     .reklam-card__img{
         img{
-            transform: scale(1.4);
+            transform: scale(1.4) !important;
             position: relative;
             top: -35px;
         }
@@ -82,12 +89,24 @@
         }
     }
     .garandiya{
-        text-align: center !important;
         margin-top: 10px;
+    }
+}
+
+@media(max-width:1200px){
+    .reklam-card__img{
+        img{
+            transform: scale(1);
+            position: relative;
+            top: -30px;
+        }
+    }
+    .garandiya{
+        text-align: center !important;
+
     }
 
     .reklam-card__info{
         text-align: center;
     }
-
 }

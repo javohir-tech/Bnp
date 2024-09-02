@@ -27,28 +27,28 @@ export default function Kravatchalar({ text,mashrutImg, kategoriya, mashrut1, ma
               <table className='table table-bordered table-striped'>
                 <tbody>
                   <tr>
-                    <td>Material</td>
-                    <td>100 % paxta flanel</td>
+                    <td>{t("Table.material")}</td>
+                    <td>100 % {t("Table.flanel")}</td>
                   </tr>
                   <tr>
-                    <td>Yostiq kiyimi</td>
-                    <td>50x70 sm (2 dona)</td>
+                    <td>{t("Table.ysize")}</td>
+                    <td>50x70 {t("Table.sm")} (2 {t("Table.dona")})</td>
                   </tr>
                   <tr>
-                    <td>Choyshab:</td>
-                    <td>260×280 sm (1 dona)</td>
+                    <td>{t("Table.csize")}</td>
+                    <td>260×280 {t("Table.sm")} (1  {t("Table.dona")})</td>
                   </tr>
                   <tr>
-                    <td>Ko'rpa-to'shak:</td>
-                    <td>160x220 sm (2 dona)</td>
+                    <td>{t("Table.ksize")}</td>
+                    <td>160x220 {t("Table.sm")} (2  {t("Table.dona")})</td>
                   </tr>
                   <tr>
-                    <td>Hajmi:</td>
-                    <td>Maxsus o'lcham</td>
+                    <td>{t("Table.hajm")}</td>
+                    <td>{t("Table.size")}</td>
                   </tr>
                   <tr>
-                    <td>Ishlab chiqaruvchi:</td>
-                    <td>Buxoro tabiiy mahsuloti</td>
+                    <td>{t("Table.by")}</td>
+                    <td>{t("NewsSection.text")}</td>
                   </tr>
                 </tbody>
               </table>
@@ -69,13 +69,13 @@ export default function Kravatchalar({ text,mashrutImg, kategoriya, mashrut1, ma
               <DivanMashrut additionSection={mashrut1} reklamImg={mashrut1Img} tovarName={t(mashrut1Text)} />
             </div>
             <div className="col-xl-3 col-md-4 ">
-              <DivanMashrut additionSection="/Ikat" reklamImg={ikkinchi} tovarName="Ikat" />
+              <DivanMashrut additionSection="/Ikat" reklamImg={ikkinchi} tovarName={t("WinderSection.Winder2")} />
             </div>
             <div className="col-xl-3 col-md-4 ">
               <DivanMashrut additionSection={mashrut2} reklamImg={mashrut2Img} tovarName={t(mashrut2Text)} />
             </div>
             <div className="col-xl-3 col-md-4 ">
-              <DivanMashrut additionSection="/davralar" reklamImg={uchinchi} tovarName="Davralar" />
+              <DivanMashrut additionSection="/davralar" reklamImg={uchinchi} tovarName={t("WinderSection.Winder4")} />
             </div>
           </div>
         </div>
