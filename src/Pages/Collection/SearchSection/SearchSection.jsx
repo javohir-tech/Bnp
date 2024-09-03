@@ -255,7 +255,7 @@ export default function SearchSection() {
                             </ul>
                         </div>
                         <div className='col-md-10 col-12'>
-                            <h2>{t("CollectionSection.title")}</h2>
+                            <h2 className='collection-headers'>{t("CollectionSection.title")}</h2>
                             <div className="row">
                                 {searchTerm.length == 0
                                     ?

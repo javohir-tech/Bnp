@@ -1,4 +1,17 @@
 .search-link{
     list-style: none;
     padding: 10px 5px;
+    a{
+        color: rgb(103,103,103);
+        font-size: 16px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        &:hover{
+            color: black;
+        }
+    }
+}
+
+.collection-headers{
+    font-weight: 700;
 }
